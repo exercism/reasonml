@@ -28,6 +28,18 @@
       ],
       "unlocked_by": null,
       "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33"
+    },
+    {
+      "core": false,
+      "difficulty": 2,
+      "slug": "space-age",
+      "topics": [
+        "floating point arithmetic",
+        "enum types",
+        "fun expressions"
+      ],
+      "unlocked_by": null,
+      "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d"
     }
   ],
   "deprecated": []
