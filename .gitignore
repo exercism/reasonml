@@ -3,3 +3,6 @@
 bin/configlet
 bin/configlet.exe
 .vscode
+**/lib/
+**/node_modules
+**/*.bs.js
