@@ -13,10 +13,7 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": [
-        "setting_up_reasonml_dev_environment",
-        "strings"
-      ]
+      "topics": ["setting_up_reasonml_dev_environment", "strings"]
     },
     {
       "slug": "leap",
@@ -24,10 +21,7 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
-      "topics": [
-        "booleans",
-        "integers"
-      ]
+      "topics": ["booleans", "integers"]
     },
     {
       "slug": "space-age",
@@ -35,10 +29,19 @@
       "core": false,
       "unlocked_by": null,
       "difficulty": 2,
+      "topics": ["enum_types", "floating_point_arithmetic", "fun_expressions"]
+    },
+    {
+      "slug": "bob",
+      "uuid": "88a4ce55-2c79-416c-930d-9e8923e16e45",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 2,
       "topics": [
-        "enum_types",
-        "floating_point_arithmetic",
-        "fun_expressions"
+        "control_flow_conditionals",
+        "pattern_recognition",
+        "regular_expressions",
+        "strings"
       ]
     }
   ]
