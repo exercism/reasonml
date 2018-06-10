@@ -2,11 +2,10 @@
 
 ![build status](https://travis-ci.org/exercism/reasonml.svg?branch=master)
 
-Exercism exercises in ReasonML.
-
 ## Setup
 
-The simplest way to install ReasonML is ...
+First install npm (Node Package Manager) - you can do that from this site: https://www.npmjs.com/get-npm
+Follow the instructions under https://reasonml.github.io/docs/en/quickstart-javascript.html to install ReasonML.
 
 ## Contributing
 
@@ -25,8 +24,17 @@ At the most basic level, Exercism is all about the tests. You can read more abou
 Test files should use the following format:
 
 ```
-# include the body of an example test
-```
+open Jest;
+open Expect;
+
+describe("Leap", () => {
+  test("year not divisible by 4: common year", () =>
+    expect(Leap.is_leap_year(2015)) |> toBe(false)
+  );
+  test("year divisible by 4, not divisible by 100: leap year", () =>
+    expect(Leap.is_leap_year(1996)) |> toBe(true)
+  );
+})```
 
 ## Opening an Issue
 
@@ -60,8 +68,7 @@ Please see the documentation about [adding new exercises](https://github.com/exe
 Note that:
 
 - Each exercise must stand on its own. Do not reference files outside the exercise directory. They will not be included when the user fetches the exercise.
-- Exercises should use only the ReasonML core libraries.
+- Exercises may use any library subject to licensing restrictions, make sure dependencies are updated in the package.json file for the exercise.
 - Exercises must conform to the Exercism-wide standards described in [the documentation](https://github.com/exercism/docs/tree/master/language-tracks/exercises).
-- Each exercise should have a test suite, an example solution, a template file for the real implementation and ... (anything else that needs to go with each exercise for this track). The CI build expects files to be named using the following convention: (describe the ReasonML convention for naming the various files that make up an exercise).
-- Please do not commit any configuration files or directories inside the exercise other than ...
+- Each exercise should have a test suite, an example solution, and build configuration files for node and Bucklescript. The CI build expects ReasonML files to be named ending in .re
 - Be sure to add it to the appropriate place in the `config.json` file.
