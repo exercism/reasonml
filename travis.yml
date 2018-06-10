@@ -1,0 +1,7 @@
+language: reasonml
+
+script:
+  - bash -ex .travis-ci.sh
+  - bin/fetch-configlet
+  - bin/configlet lint .
+
