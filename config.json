@@ -2,45 +2,44 @@
   "track_id": "reasonml",
   "language": "ReasonML",
   "active": false,
+  "blurb": "",
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
-  "foregone": [],
   "exercises": [
     {
-      "core": false,
-      "difficulty": 1,
       "slug": "hello-world",
+      "uuid": "63d72b81-c7a4-4a94-8224-69f4c68cc374",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
         "setting_up_reasonml_dev_environment",
         "strings"
-      ],
-      "unlocked_by": null,
-      "uuid": "63d72b81-c7a4-4a94-8224-69f4c68cc374"
+      ]
     },
     {
-      "core": false,
-      "difficulty": 1,
       "slug": "leap",
+      "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
       "topics": [
         "booleans",
         "integers"
-      ],
-      "unlocked_by": null,
-      "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33"
+      ]
     },
     {
-      "core": false,
-      "difficulty": 2,
       "slug": "space-age",
-      "topics": [
-        "floating point arithmetic",
-        "enum types",
-        "fun expressions"
-      ],
+      "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d",
+      "core": false,
       "unlocked_by": null,
-      "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d"
+      "difficulty": 2,
+      "topics": [
+        "enum_types",
+        "floating_point_arithmetic",
+        "fun_expressions"
+      ]
     }
-  ],
-  "deprecated": []
+  ]
 }
