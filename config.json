@@ -43,6 +43,18 @@
         "regular_expressions",
         "strings"
       ]
+    },
+    {
+      "slug": "rna-transcription",
+      "uuid": "9690c216-d999-4b44-b73c-b7a8d776cf5d",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "lists",
+        "list map function",
+        "variants"
+      ]
     }
   ]
 }
