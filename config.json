@@ -55,6 +55,17 @@
         "list map function",
         "variants"
       ]
+    },
+    {
+      "slug": "anagram",
+      "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings",
+        "filtering"
+      ]
     }
   ]
 }
