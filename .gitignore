@@ -7,3 +7,4 @@ bin/configlet.exe
 **/node_modules
 **/*.bs.js
 .merlin
+.bsb.lock
