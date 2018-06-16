@@ -6,3 +6,4 @@ bin/configlet.exe
 **/lib/
 **/node_modules
 **/*.bs.js
+.merlin
