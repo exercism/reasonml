@@ -1,4 +1,4 @@
-let is_leap_year = (year) => {
+let isLeapYear = (year) => {
   year mod 400 == 0 || (year mod 4 == 0 && year mod 100 != 0);
 }
 
