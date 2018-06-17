@@ -101,6 +101,18 @@
         "fun_expressions",
         "list_map_function"
       ]
+    },
+    {
+      "slug": "change",
+      "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": [
+        "integers",
+        "recursion",
+        "dynamic_programming"
+      ]
     }
   ]
 }
