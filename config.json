@@ -87,8 +87,19 @@
       "unlocked_by": null,
       "difficulty": 3,
       "topics": [
-        "strings",
-        "filtering"
+        "filtering",
+        "strings"
+      ]
+    },
+    {
+      "slug": "raindrops",
+      "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "fun_expressions",
+        "list_map_function"
       ]
     }
   ]
