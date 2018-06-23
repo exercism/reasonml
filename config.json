@@ -145,6 +145,17 @@
         "recursion",
         "dynamic_programming"
       ]
+    },
+    {
+      "slug": "phone-number",
+      "uuid": "2721c31b-773e-43c5-93ab-f704d62e5cde",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings",
+        "regular_expressions"
+      ]
     }
   ]
 }
