@@ -103,6 +103,17 @@
       ]
     },
     {
+      "slug": "binary-search",
+      "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "arrays",
+        "recursion"
+      ]
+    },
+    {
       "slug": "run-length-encoding",
       "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
       "core": false,
