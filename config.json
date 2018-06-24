@@ -103,6 +103,16 @@
       ]
     },
     {
+      "slug": "pangram",
+      "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings"
+      ]
+    },
+    {
       "slug": "binary-search",
       "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
       "core": false,
