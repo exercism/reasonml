@@ -103,6 +103,17 @@
       ]
     },
     {
+      "slug": "run-length-encoding",
+      "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 4,
+      "topics": [
+        "strings",
+        "converting_strings_to_ints"
+      ]
+    },
+    {
       "slug": "change",
       "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
       "core": false,
