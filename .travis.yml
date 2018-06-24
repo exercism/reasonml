@@ -1,5 +1,22 @@
-language: bash
+language: node_js
+
+node_js:
+  - 'node'
+
+before_install:
+  - npm i -g npm@latest
+
+install:
+  - npm ci
+
+cache:
+  directories:
+    - node_modules
 
 script:
   - bin/fetch-configlet
-  - bin/configlet lint --track TRACK_ID .
+  - bin/configlet lint --track-id reasonml .
+  - make copy-all-exercises
+  - npm run build
+  - npm run test:ci
+  - make clean
