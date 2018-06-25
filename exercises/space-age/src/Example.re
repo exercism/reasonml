@@ -8,9 +8,9 @@ type planet =
   | Neptune
   | Uranus;
 
-let earth_years = (seconds) => seconds /. 31557600.0;
+let earthYears = seconds => seconds /. 31557600.0;
 
-let rel_years =
+let relYears =
   fun
   | Mercury => 0.2408467
   | Venus => 0.61519726
@@ -21,6 +21,4 @@ let rel_years =
   | Uranus => 84.016846
   | Neptune => 164.79132;
 
-let age_on = (planet, seconds) => {
-  earth_years(seconds) /. rel_years(planet)
-};
+let ageOn = (planet, seconds) => earthYears(seconds) /. relYears(planet);

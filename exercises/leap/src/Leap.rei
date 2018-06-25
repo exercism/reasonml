@@ -1,0 +1,1 @@
+let isLeapYear: int => bool;

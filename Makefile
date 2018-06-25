@@ -9,19 +9,22 @@ OUTDIR ?= "tmp"
 
 # language specific config (tweakable per language)
 FILEEXT := "re"
+SIGFILEEXT := "rei"
 EXAMPLE := "Example.$(FILEEXT)"
 SRCFILE := "$(shell echo $(EXERCISE) | sed -r 's/(^|-)([a-z])/\U\2/g')"
 TSTFILE := "$(SRCFILE)_test.$(FILEEXT)"
+SIGFILE := "$(SRCFILE).$(SIGFILEEXT)"
 # Any additional arguments, such as -p for pretty output and others
 ARGS ?= ""
 
-# copy example and test file for single exercise to OUTDIR
+# copy example, interface and test files for single exercise to OUTDIR
 # Rename Example.re to ExerciseName.re in the process
 copy-exercise:
-	@cp exercises/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/
 	@cp exercises/$(EXERCISE)/src/$(EXAMPLE) $(OUTDIR)/src/$(SRCFILE).$(FILEEXT)
+	@cp exercises/$(EXERCISE)/src/$(SIGFILE) $(OUTDIR)/src/
+	@cp exercises/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/
 
-# copy all source files to OUTDIR - easier to compile from there
+# copy source files for all exercises to OUTDIR - easier to compile from there
 copy-all-exercises:
 	@echo "Copying files..."
 	@mkdir -p $(OUTDIR)/src

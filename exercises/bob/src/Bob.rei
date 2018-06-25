@@ -1,0 +1,1 @@
+let hey: string => string;

@@ -1,0 +1,1 @@
+let raindrops: int => string;

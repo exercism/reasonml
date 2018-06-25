@@ -8,3 +8,4 @@ bin/configlet.exe
 **/*.bs.js
 .merlin
 .bsb.lock
+tmp
