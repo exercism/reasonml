@@ -1,0 +1,1 @@
+let isPangram: string => bool;
