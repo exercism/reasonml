@@ -156,6 +156,19 @@
         "strings",
         "regular_expressions"
       ]
+    },
+    {
+      "slug": "armstrong-numbers",
+      "uuid": "cc660762-4006-40c2-bc3b-a7bb4ac69202",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "arrays",
+        "folding",
+        "algorithms",
+        "mathematics"
+      ]
     }
   ]
 }
