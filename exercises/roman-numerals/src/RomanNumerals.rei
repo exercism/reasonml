@@ -1,0 +1,1 @@
+let toRoman: int => string;
