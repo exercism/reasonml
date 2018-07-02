@@ -12,17 +12,25 @@ He says 'Fine. Be that way!' if you address him without actually saying
 anything.
 
 He answers 'Whatever.' to anything else.
+## Source
 
-# Build
+Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=06](http://pine.fm/LearnToProgram/?Chapter=06)
+
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
 ```
-npm run build
+npm install
 ```
 
-# Build + Watch
-
+Open two shells, and in the first, start the build process.
 ```
-npm run start
+npm start
 ```
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+In the second, start the tests running.
+```
+npm test
+```
+
+As you edit the code, the two processes will continually rebuild and rerun the tests.

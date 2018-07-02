@@ -2,8 +2,7 @@
 
 Determine if a word or phrase is an isogram.
 
-An isogram (also known as a "nonpattern word") is a word or phrase without a repeating letter,
-however spaces and hyphens are allowed to appear multiple times.
+An isogram (also known as a "nonpattern word") is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
 
 Examples of isograms:
 
@@ -13,10 +12,9 @@ Examples of isograms:
 - six-year-old
 
 The word *isograms*, however, is not an isogram, because the s repeats.
+## Source
 
-## Getting Started
-For installation and learning resources, refer to the
-[exercism help page](http://exercism.io/languages/reasonml).
+Wikipedia [https://en.wikipedia.org/wiki/Isogram](https://en.wikipedia.org/wiki/Isogram)
 
 ## Building and testing
 You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)

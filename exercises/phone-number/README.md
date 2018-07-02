@@ -1,4 +1,5 @@
 # Phone Number
+
 Clean up user-entered phone numbers so that they can be sent SMS messages.
 
 The **North American Numbering Plan (NANP)** is a telephone numbering system used by many countries in North America like the United States, Canada or Bermuda. All NANP-countries share the same international country code: `1`.
@@ -26,18 +27,25 @@ should all produce the output
 `6139950253`
 
 **Note:** As this exercise only deals with telephone numbers used in NANP-countries, only 1 is considered a valid country code.
+## Source
 
-# Build
+Event Manager by JumpstartLab [http://tutorials.jumpstartlab.com/projects/eventmanager.html](http://tutorials.jumpstartlab.com/projects/eventmanager.html)
+
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
 ```
-npm run build
+npm install
 ```
 
-# Build + Watch
-
+Open two shells, and in the first, start the build process.
 ```
-npm run start
+npm start
 ```
 
+In the second, start the tests running.
+```
+npm test
+```
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+As you edit the code, the two processes will continually rebuild and rerun the tests.

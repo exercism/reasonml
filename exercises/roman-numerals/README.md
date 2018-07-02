@@ -41,6 +41,9 @@ In Roman numerals 1990 is MCMXC:
 8=VIII
 
 See also: http://www.novaroma.org/via_romana/numbers.html
+## Source
+
+The Roman Numeral Kata [http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals](http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals)
 
 ## Building and testing
 You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
@@ -60,10 +63,3 @@ npm test
 ```
 
 As you edit the code, the two processes will continually rebuild and rerun the tests.
-
-## Source
-
-The Roman Numeral Kata [http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals](http://codingdojo.org/cgi-bin/index.pl?KataRomanNumerals)
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
