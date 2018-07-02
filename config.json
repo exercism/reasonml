@@ -169,6 +169,17 @@
         "algorithms",
         "mathematics"
       ]
+    },
+    {
+      "slug": "isogram",
+      "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings",
+        "lists"
+      ]
     }
   ]
 }
