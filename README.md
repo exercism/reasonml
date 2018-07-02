@@ -9,19 +9,17 @@ Follow the instructions under https://reasonml.github.io/docs/en/quickstart-java
 
 ## Contributing
 
-Thank you so much for contributing! :tada:
+We welcome all contributions, both large and small.
 
 Please read about how to [get involved in a track](https://github.com/exercism/docs/tree/master/contributing-to-language-tracks). Be sure to read the Exercism [Code of Conduct](https://github.com/exercism/exercism.io/blob/master/CODE_OF_CONDUCT.md).
 
-We welcome pull requests of all kinds. No contribution is too small.
-
-We encourage contributions that provide fixes and improvements to existing exercises. Please note that this track's exercises must conform to the Exercism-wide standards described in the [documentation](https://github.com/exercism/docs/tree/master/language-tracks/exercises). If you're unsure about how to make a change, then go ahead and open a GitHub issue, and we'll discuss it.
+Fixes and improvements to existing exercises are welcome. Please note that this track's exercises must conform to the Exercism-wide standards described in the [documentation](https://github.com/exercism/docs/tree/master/language-tracks/exercises). If you're unsure about how to make a change, then go ahead and open a GitHub issue, and we'll discuss it.
 
 ## Exercise Tests
 
-At the most basic level, Exercism is all about the tests. You can read more about how we think about test suites in [the Exercism documentation](https://github.com/exercism/docs/blob/master/language-tracks/exercises/anatomy/test-suites.md).
+All Exercism exercises contain a test suite, which help to guide the user's implementation. You can read more about how we think about test suites in [the Exercism documentation](https://github.com/exercism/docs/blob/master/language-tracks/exercises/anatomy/test-suites.md).
 
-Test files should use the following format:
+Tests should be written using [bs-jest](https://github.com/glennsl/bs-jest).
 
 ```
 open Jest;
@@ -45,22 +43,17 @@ If you plan to make significant or breaking changes, please open an issue so we 
 
 Pull requests should be focused on a single exercise, issue, or conceptually cohesive change. Please refer to Exercism's [pull request guidelines](https://github.com/exercism/docs/blob/master/contributing/pull-request-guidelines.md).
 
-Please follow the coding standards for ReasonML. (If there is a formatter for the track's language, add instructions for using it here.)
+Please use [refmt](https://reasonml.github.io/docs/en/extra-goodies.html) to ensure a consistent coding style.
+```
+refmt --in-place Example.re
+```
 
 ### Verifying Your Change
 
 Before submitting your pull request, you'll want to verify the changes in two ways:
 
-* Run all the tests for the ReasonML exercises
-* Run an Exercism-specific linter to verify the track
-
-All the tests for ReasonML exercises can be run from the top level of the repo with
-
-```
-# add this command
-```
-
-For the Exercism-specific linting, please see [the documentation](https://github.com/exercism/docs/blob/master/language-tracks/configuration/linting.md).
+* Run all the tests for the ReasonML exercises. There is a top level Makefile, run: ```make```.
+* Run checks on the repo using [configlet](https://github.com/exercism/docs/blob/master/language-tracks/configuration/configlet.md). From the top level, run: ```./bin/configlet lint --track-id reasonml .```
 
 ## Contributing a New Exercise
 
