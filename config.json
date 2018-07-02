@@ -148,6 +148,17 @@
       ]
     },
     {
+      "slug": "roman-numerals",
+      "uuid": "fb891c45-82f1-422d-ac4e-00409668d6a7",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings",
+        "arithmetic"
+      ]
+    },
+    {
       "slug": "binary-search",
       "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
       "core": false,
