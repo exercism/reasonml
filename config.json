@@ -81,17 +81,6 @@
       ]
     },
     {
-      "slug": "anagram",
-      "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 3,
-      "topics": [
-        "filtering",
-        "strings"
-      ]
-    },
-    {
       "slug": "raindrops",
       "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
       "core": false,
@@ -100,61 +89,6 @@
       "topics": [
         "fun_expressions",
         "list_map_function"
-      ]
-    },
-    {
-      "slug": "pangram",
-      "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 3,
-      "topics": [
-        "strings"
-      ]
-    },
-    {
-      "slug": "binary-search",
-      "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 3,
-      "topics": [
-        "arrays",
-        "recursion"
-      ]
-    },
-    {
-      "slug": "run-length-encoding",
-      "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 4,
-      "topics": [
-        "strings",
-        "converting_strings_to_ints"
-      ]
-    },
-    {
-      "slug": "change",
-      "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 5,
-      "topics": [
-        "integers",
-        "recursion",
-        "dynamic_programming"
-      ]
-    },
-    {
-      "slug": "phone-number",
-      "uuid": "2721c31b-773e-43c5-93ab-f704d62e5cde",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 3,
-      "topics": [
-        "strings",
-        "regular_expressions"
       ]
     },
     {
@@ -171,6 +105,27 @@
       ]
     },
     {
+      "slug": "anagram",
+      "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "filtering",
+        "strings"
+      ]
+    },
+    {
+      "slug": "pangram",
+      "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings"
+      ]
+    },
+    {
       "slug": "isogram",
       "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
       "core": false,
@@ -179,6 +134,51 @@
       "topics": [
         "strings",
         "lists"
+      ]
+    },
+    {
+      "slug": "phone-number",
+      "uuid": "2721c31b-773e-43c5-93ab-f704d62e5cde",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 3,
+      "topics": [
+        "strings",
+        "regular_expressions"
+      ]
+    },
+    {
+      "slug": "binary-search",
+      "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 4,
+      "topics": [
+        "arrays",
+        "recursion"
+      ]
+    },
+    {
+      "slug": "run-length-encoding",
+      "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": [
+        "strings",
+        "converting_strings_to_ints"
+      ]
+    },
+    {
+      "slug": "change",
+      "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": [
+        "integers",
+        "recursion",
+        "dynamic_programming"
       ]
     }
   ]
