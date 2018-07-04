@@ -1,8 +1,10 @@
 EXERCISE ?= ""
-IGNOREDIRS := "^(\.git|docs|bin|node_modules|.idea)$$"
+IGNOREDIRS := "^(\.git|docs|bin|node_modules|.idea|.vscode)$$"
 EXERCISES = $(shell find ./exercises -maxdepth 1 -mindepth 1 -type d | cut -d'/' -f3 | sort | grep -Ev $(IGNOREDIRS))
 
-default: testgenerator test
+default: copy-all-exercises
+	npm run build
+	npm run test:ci
 
 # output directories
 OUTDIR ?= "tmp"
