@@ -1,4 +1,4 @@
-# Leap in ReasonML
+# Leap
 
 Given a year, report if it is a leap year.
 
@@ -25,15 +25,25 @@ For a delightful, four minute explanation of the whole leap year
 phenomenon, go watch [this youtube video][video].
 
 [video]: http://www.youtube.com/watch?v=xX96xng7sAE
+## Source
 
-# Build + Watch
+JavaRanch Cattle Drive, exercise 3 [http://www.javaranch.com/leap.jsp](http://www.javaranch.com/leap.jsp)
 
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
+```
+npm install
+```
+
+Open two shells, and in the first, start the build process.
 ```
 npm start
 ```
 
-# Test + Watch
-
+In the second, start the tests running.
 ```
 npm test
 ```
+
+As you edit the code, the two processes will continually rebuild and rerun the tests.

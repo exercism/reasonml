@@ -7,15 +7,25 @@ The best known English pangram is:
 
 The alphabet used consists of ASCII letters `a` to `z`, inclusive, and is case
 insensitive. Input will not contain non-ASCII symbols.
+## Source
 
-# Build + Watch
+Wikipedia [https://en.wikipedia.org/wiki/Pangram](https://en.wikipedia.org/wiki/Pangram)
 
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
+```
+npm install
+```
+
+Open two shells, and in the first, start the build process.
 ```
 npm start
 ```
 
-# Test + Watch
-
+In the second, start the tests running.
 ```
 npm test
 ```
+
+As you edit the code, the two processes will continually rebuild and rerun the tests.

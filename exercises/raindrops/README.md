@@ -16,18 +16,25 @@ Convert a number to a string, the contents of which depend on the number's facto
   - In raindrop-speak, this would be a "PlingPlang".
 - 34 has four factors: 1, 2, 17, and 34.
   - In raindrop-speak, this would be "34".
+## Source
 
-# Build
+A variation on a famous interview question intended to weed out potential candidates. [http://jumpstartlab.com](http://jumpstartlab.com)
+
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
 ```
-npm run build
+npm install
 ```
 
-# Build + Watch
-
+Open two shells, and in the first, start the build process.
 ```
-npm run start
+npm start
 ```
 
+In the second, start the tests running.
+```
+npm test
+```
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+As you edit the code, the two processes will continually rebuild and rerun the tests.

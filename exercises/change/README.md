@@ -15,11 +15,9 @@ that the sum of the coins' value would equal the correct amount of change.
 - Does your algorithm work for any given set of coins?
 - Can you ask for negative change?
 - Can you ask for a change value smaller than the smallest coin value?
+## Source
 
-
-## Getting Started
-For installation and learning resources, refer to the
-[exercism help page](http://exercism.io/languages/reasonml).
+Software Craftsmanship - Coin Change Kata [https://web.archive.org/web/20130115115225/http://craftsmanship.sv.cmu.edu:80/exercises/coin-change-kata](https://web.archive.org/web/20130115115225/http://craftsmanship.sv.cmu.edu:80/exercises/coin-change-kata)
 
 ## Building and testing
 You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)

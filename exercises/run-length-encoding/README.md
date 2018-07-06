@@ -22,18 +22,25 @@ For simplicity, you can assume that the unencoded string will only contain
 the letters A through Z (either lower or upper case) and whitespace. This way
 data to be encoded will never contain any numbers and numbers inside data to
 be decoded always represent the count for the following character.
+## Source
 
-# Build
+Wikipedia [https://en.wikipedia.org/wiki/Run-length_encoding](https://en.wikipedia.org/wiki/Run-length_encoding)
+
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
 ```
-npm run build
+npm install
 ```
 
-# Build + Watch
-
+Open two shells, and in the first, start the build process.
 ```
-npm run start
+npm start
 ```
 
+In the second, start the tests running.
+```
+npm test
+```
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+As you edit the code, the two processes will continually rebuild and rerun the tests.

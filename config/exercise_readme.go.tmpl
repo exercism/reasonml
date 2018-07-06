@@ -12,5 +12,21 @@
 
 {{ . }}
 {{ end }}
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
+```
+npm install
+```
+
+Open two shells, and in the first, start the build process.
+```
+npm start
+```
+
+In the second, start the tests running.
+```
+npm test
+```
+
+As you edit the code, the two processes will continually rebuild and rerun the tests.

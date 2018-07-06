@@ -16,15 +16,25 @@ be able to say that they're 31.69 Earth-years old.
 
 If you're wondering why Pluto didn't make the cut, go watch [this
 youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
+## Source
 
-# Build + Watch
+Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=01](http://pine.fm/LearnToProgram/?Chapter=01)
 
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
+```
+npm install
+```
+
+Open two shells, and in the first, start the build process.
 ```
 npm start
 ```
 
-# Test + Watch
-
+In the second, start the tests running.
 ```
 npm test
 ```
+
+As you edit the code, the two processes will continually rebuild and rerun the tests.
