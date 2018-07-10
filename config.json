@@ -181,6 +181,17 @@
       ]
     },
     {
+      "slug": "minesweeper",
+      "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 5,
+      "topics": [
+        "strings",
+        "arrays"
+      ]
+    },
+    {
       "slug": "change",
       "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
       "core": false,
