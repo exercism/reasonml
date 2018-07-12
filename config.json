@@ -213,6 +213,19 @@
         "regular_expressions",
         "strings"
       ]
+    },
+    {
+      "slug": "all-your-base",
+      "uuid": "364cafb4-ada0-4f9f-87f0-c6cbf603fcba",
+      "core": false,
+      "unlocked_by": "binary-search",
+      "difficulty": 2,
+      "topics": [
+        "algorithms",
+        "integers",
+        "lists",
+        "folding"
+      ]
     }
   ]
 }
