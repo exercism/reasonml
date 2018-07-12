@@ -98,9 +98,9 @@
       "unlocked_by": "leap",
       "difficulty": 2,
       "topics": [
+        "algorithms",
         "arrays",
         "folding",
-        "algorithms",
         "mathematics"
       ]
     },
@@ -132,8 +132,8 @@
       "unlocked_by": "word-count",
       "difficulty": 3,
       "topics": [
-        "strings",
-        "lists"
+        "lists",
+        "strings"
       ]
     },
     {
@@ -143,8 +143,8 @@
       "unlocked_by": null,
       "difficulty": 3,
       "topics": [
-        "strings",
-        "regular_expressions"
+        "regular_expressions",
+        "strings"
       ]
     },
     {
@@ -154,8 +154,8 @@
       "unlocked_by": "leap",
       "difficulty": 3,
       "topics": [
-        "strings",
-        "arithmetic"
+        "arithmetic",
+        "strings"
       ]
     },
     {
@@ -176,8 +176,8 @@
       "unlocked_by": null,
       "difficulty": 5,
       "topics": [
-        "strings",
-        "converting_strings_to_ints"
+        "converting_strings_to_ints",
+        "strings"
       ]
     },
     {
@@ -187,8 +187,8 @@
       "unlocked_by": null,
       "difficulty": 5,
       "topics": [
-        "strings",
-        "arrays"
+        "arrays",
+        "strings"
       ]
     },
     {
@@ -198,9 +198,20 @@
       "unlocked_by": "binary-search",
       "difficulty": 5,
       "topics": [
+        "dynamic_programming",
         "integers",
-        "recursion",
-        "dynamic_programming"
+        "recursion"
+      ]
+    },
+    {
+      "slug": "acronym",
+      "uuid": "c6623707-e7e9-4ce9-9440-8bb87696bb73",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "regular_expressions",
+        "strings"
       ]
     }
   ]
