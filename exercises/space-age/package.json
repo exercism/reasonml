@@ -1,5 +1,5 @@
 {
-  "name": "leap",
+  "name": "space-age",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
