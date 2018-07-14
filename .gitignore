@@ -9,3 +9,4 @@ bin/configlet.exe
 .merlin
 .bsb.lock
 tmp
+exercises/**/.gitignore
