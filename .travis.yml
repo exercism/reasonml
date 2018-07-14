@@ -14,9 +14,6 @@ cache:
     - node_modules
 
 script:
-  - bin/fetch-configlet
-  - bin/configlet lint --track-id reasonml .
-  - make copy-all-exercises
-  - npm run build
-  - npm run test:ci
+  - bin/fetch-configlet && bin/configlet lint --track-id reasonml .
+  - make copy-all-exercises && npm run build && npm run test:ci
   - make clean
