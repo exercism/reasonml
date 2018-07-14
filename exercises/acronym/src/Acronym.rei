@@ -1,0 +1,1 @@
+let abbreviate: string => string;
