@@ -226,6 +226,18 @@
         "lists",
         "folding"
       ]
+    },
+    {
+      "slug": "accumulate",
+      "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 2,
+      "topics": [
+        "algorithms",
+        "lists",
+        "folding"
+      ]
     }
   ]
 }
