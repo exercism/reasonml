@@ -238,6 +238,19 @@
         "lists",
         "folding"
       ]
+    },
+    {
+      "slug": "allergies",
+      "uuid": "f964d022-1466-4c76-8877-0b0dda25578b",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 4,
+      "topics": [
+        "integers",
+        "bitwise_operations",
+        "arrays",
+        "lists"
+      ]
     }
   ]
 }
