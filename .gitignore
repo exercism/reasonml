@@ -10,3 +10,4 @@ bin/configlet.exe
 .bsb.lock
 tmp
 exercises/**/.gitignore
+exercises/**/package-lock.json
