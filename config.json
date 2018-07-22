@@ -251,6 +251,18 @@
         "arrays",
         "lists"
       ]
+    },
+    {
+      "slug": "protein-translation",
+      "uuid": "c8e92ec5-d5e5-40dd-98ce-acc7f7263efe",
+      "core": true,
+      "unlocked_by": null,
+      "difficulty": 4,
+      "topics": [
+        "lists",
+        "hash-map-lookup",
+        "data-transform"
+      ]
     }
   ]
 }
