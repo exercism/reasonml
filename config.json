@@ -83,8 +83,8 @@
     {
       "slug": "raindrops",
       "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
-      "core": true,
-      "unlocked_by": null,
+      "core": false,
+      "unlocked_by": "bob",
       "difficulty": 2,
       "topics": [
         "fun_expressions",
@@ -183,8 +183,8 @@
     {
       "slug": "minesweeper",
       "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
-      "core": true,
-      "unlocked_by": null,
+      "core": false,
+      "unlocked_by": "binary-search",
       "difficulty": 5,
       "topics": [
         "arrays",
@@ -230,8 +230,8 @@
     {
       "slug": "accumulate",
       "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
-      "core": true,
-      "unlocked_by": null,
+      "core": false,
+      "unlocked_by": "rna-transcription",
       "difficulty": 2,
       "topics": [
         "algorithms",
@@ -242,8 +242,8 @@
     {
       "slug": "allergies",
       "uuid": "f964d022-1466-4c76-8877-0b0dda25578b",
-      "core": true,
-      "unlocked_by": null,
+      "core": false,
+      "unlocked_by": "bob",
       "difficulty": 4,
       "topics": [
         "integers",
@@ -255,8 +255,8 @@
     {
       "slug": "protein-translation",
       "uuid": "c8e92ec5-d5e5-40dd-98ce-acc7f7263efe",
-      "core": true,
-      "unlocked_by": null,
+      "core": false,
+      "unlocked_by": "rna-transcription",
       "difficulty": 4,
       "topics": [
         "lists",
