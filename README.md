@@ -35,6 +35,12 @@ describe("Leap", () => {
 })
 ```
 
+## Coding Style
+
+Use PascalCase.re for Reason implementation file names.
+A Reason interface file (.rei) should be included with every exercise to help the user get started.
+Use [refmt](https://github.com/reasonml/reason-cli) on your code before pushing.
+
 ## Opening an Issue
 
 If you plan to make significant or breaking changes, please open an issue so we can discuss it first. If this is a discussion that is relevant to more than just the ReasonML track, please open an issue in [exercism/discussions](https://github.com/exercism/discussions/issues).
