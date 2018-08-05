@@ -101,7 +101,7 @@
         "algorithms",
         "arrays",
         "folding",
-        "mathematics"
+        "math"
       ]
     },
     {
@@ -154,7 +154,6 @@
       "unlocked_by": "leap",
       "difficulty": 3,
       "topics": [
-        "arithmetic",
         "strings"
       ]
     },
@@ -222,9 +221,10 @@
       "difficulty": 2,
       "topics": [
         "algorithms",
+        "folding",
         "integers",
         "lists",
-        "folding"
+        "math"
       ]
     },
     {
@@ -235,8 +235,8 @@
       "difficulty": 2,
       "topics": [
         "algorithms",
-        "lists",
-        "folding"
+        "folding",
+        "lists"
       ]
     },
     {
@@ -246,9 +246,9 @@
       "unlocked_by": "bob",
       "difficulty": 4,
       "topics": [
-        "integers",
-        "bitwise_operations",
         "arrays",
+        "bitwise_operations",
+        "integers",
         "lists"
       ]
     },
@@ -259,9 +259,9 @@
       "unlocked_by": "rna-transcription",
       "difficulty": 4,
       "topics": [
-        "lists",
-        "hash-map-lookup",
-        "data-transform"
+        "data_transform",
+        "hash_map_lookup",
+        "lists"
       ]
     }
   ]
