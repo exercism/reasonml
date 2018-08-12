@@ -1,6 +1,6 @@
 open Jest;
 
-describe("Minesweeoer", () => {
+describe("Minesweeper", () => {
   open Expect;
 
   test("no rows", () =>
