@@ -4,3 +4,4 @@
 * [Editor plugins list](https://reasonml.github.io/docs/en/editor-plugins.html#officially-supported-editors)
 * [Belt](https://bucklescript.github.io/bucklescript/api/Belt.html)
 * [Egghead Video Tutorial](https://egghead.io/browse/languages/reason)
+* [ReasonML functions guide](http://2ality.com/2017/12/functions-reasonml.html)
