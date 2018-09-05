@@ -19,6 +19,10 @@ SIGFILE := "$(SRCFILE).$(SIGFILEEXT)"
 # Any additional arguments, such as -p for pretty output and others
 ARGS ?= ""
 
+SOURCE_PKG_MD5 ?= "`./bin/md5-hash ./package.json`"
+PKG_FILES= $(shell find ./exercises/*/* -maxdepth 1 -name package.json)
+SOURCE_PKG_LOCK_MD5 ?= "`./bin/md5-hash ./package-lock.json`"
+PKG_LOCK_FILES= $(shell find ./exercises/*/* -maxdepth 1 -name package-lock.json)
 # copy example, interface and test files for single exercise to OUTDIR
 # Rename Example.re to ExerciseName.re in the process
 copy-exercise:
@@ -43,6 +47,17 @@ sync-package-files:
 	@echo "Syncing package.json and lockfile..."
 	@for exercise in $(EXERCISES); do EXERCISE=$$exercise $(MAKE) -s copy-package-file || exit 1; done
 
+# check all package.json and package-lock.json are matching
+check-package-files:
+	@echo "Validation package.json files..."
+	@for pkg in $(PKG_FILES); do \
+		! ./bin/md5-hash $$pkg | grep -qv $(SOURCE_PKG_MD5) || { echo "$$pkg does not match main package.json.  Please run 'make sync-package-files' locally and commit the results."; exit 1; }; \
+	done
+	@echo "Validation package-lock.json files..."
+	@for pkg in $(PKG_LOCK_FILES); do \
+		! ./bin/md5-hash $$pkg | grep -qv $(SOURCE_PKG_LOCK_MD5) || { echo "$$pkg does not match main package.json.  Please run 'make sync-package-files' locally and commit the results."; exit 1; }; \
+	done
+	@echo "package-file check complete..."
 # Remove the OUTDIR
 clean:
 	@rm -rf $(OUTDIR)
