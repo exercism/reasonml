@@ -1,5 +1,5 @@
 {
-  "name": "leap",
+  "name": "exercism-reasonml",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
