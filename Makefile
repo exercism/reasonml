@@ -33,6 +33,16 @@ copy-all-exercises:
 	@mkdir -p $(OUTDIR)/__tests__
 	@for exercise in $(EXERCISES); do EXERCISE=$$exercise $(MAKE) -s copy-exercise || exit 1; done
 
+# copy package.json and package-lock.json for single exercise
+copy-package-file:
+	@cp package.json exercises/$(EXERCISE)/package.json
+	@cp package-lock.json exercises/$(EXERCISE)/package-lock.json
+
+# copy package files to all exercise directories
+sync-package-files:
+	@echo "Syncing package.json and lockfile..."
+	@for exercise in $(EXERCISES); do EXERCISE=$$exercise $(MAKE) -s copy-package-file || exit 1; done
+
 # Remove the OUTDIR
 clean:
 	@rm -rf $(OUTDIR)

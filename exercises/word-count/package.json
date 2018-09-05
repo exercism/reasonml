@@ -1,5 +1,5 @@
 {
-  "name": "word-count",
+  "name": "exercism-reasonml",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -8,7 +8,9 @@
     "test": "jest --watchAll --env=node",
     "test:ci": "jest --ci --bail --no-cache --env=node"
   },
-  "keywords": ["BuckleScript"],
+  "keywords": [
+    "BuckleScript"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
