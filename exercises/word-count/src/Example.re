@@ -17,4 +17,3 @@ let wordCount = (input: string) =>
        },
        Js.Dict.empty(),
      )
-  |> Js.Dict.entries;

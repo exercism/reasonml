@@ -1,1 +1,1 @@
-let wordCount: string => array((string, int));
+let wordCount: string => Js.Dict.t(int);
