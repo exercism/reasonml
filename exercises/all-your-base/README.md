@@ -31,17 +31,21 @@ I think you got the idea!
 
 *Yes. Those three numbers above are exactly the same. Congratulations!*
 
-# Build
+## Building and testing
+You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
+There is one time setup for each exercise, which may take a few minutes:
 ```
-npm run build
-```
-
-# Build + Watch
-
-```
-npm run start
+npm install
 ```
 
+Open two shells, and in the first, start the build process.
+```
+npm start
+```
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+In the second, start the tests running.
+```
+npm test
+```
+
+As you edit the code, the two processes will continually rebuild and rerun the tests.

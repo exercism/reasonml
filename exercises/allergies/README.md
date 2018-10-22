@@ -28,6 +28,9 @@ Note: a given score may include allergens **not** listed above (i.e.
 allergens that score 256, 512, 1024, etc.).  Your program should
 ignore those components of the score.  For example, if the allergy
 score is 257, your program should only report the eggs (1) allergy.
+## Source
+
+Jumpstart Lab Warm-up [http://jumpstartlab.com](http://jumpstartlab.com)
 
 ## Building and testing
 You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
