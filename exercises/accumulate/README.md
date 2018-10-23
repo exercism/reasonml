@@ -21,9 +21,12 @@ Check out the test suite to see the expected function signature.
 
 ## Restrictions
 
-Keep your hands off that for_all/map functionality
+Keep your hands off that collect/map/fmap/whatchamacallit functionality
 provided by your standard library!
 Solve this one yourself using other basic tools instead.
+## Source
+
+Conversation with James Edward Gray II [https://twitter.com/jeg2](https://twitter.com/jeg2)
 
 ## Building and testing
 You will need the node package manager (npm) installed - download from [here](https://www.npmjs.com/get-npm)
