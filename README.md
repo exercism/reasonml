@@ -5,7 +5,7 @@
 ## Setup
 
 First install npm (Node Package Manager) - you can do that from this site: https://www.npmjs.com/get-npm
-Follow the instructions under https://reasonml.github.io/docs/en/quickstart-javascript.html to install ReasonML.
+Follow the instructions under https://reasonml.github.io/docs/en/installation to install ReasonML.
 
 ## Contributing
 
@@ -21,7 +21,7 @@ All Exercism exercises contain a test suite, which help to guide the user's impl
 
 Tests should be written using [bs-jest](https://github.com/glennsl/bs-jest).
 
-```
+```re
 open Jest;
 open Expect;
 
@@ -37,8 +37,8 @@ describe("Leap", () => {
 
 ## Coding Style
 
-Use PascalCase.re for Reason implementation file names.
-A Reason interface file (.rei) should be included with every exercise to help the user get started.
+Use `PascalCase.re` for Reason implementation file names.
+A Reason interface file (`.rei`) should be included with every exercise to help the user get started.
 Use [refmt](https://github.com/reasonml/reason-cli) on your code before pushing.
 
 ## Opening an Issue
@@ -50,7 +50,8 @@ If you plan to make significant or breaking changes, please open an issue so we 
 Pull requests should be focused on a single exercise, issue, or conceptually cohesive change. Please refer to Exercism's [pull request guidelines](https://github.com/exercism/docs/blob/master/contributing/pull-request-guidelines.md).
 
 Please use [refmt](https://reasonml.github.io/docs/en/extra-goodies.html) to ensure a consistent coding style.
-```
+
+```sh
 refmt --in-place Example.re
 ```
 
@@ -58,8 +59,12 @@ refmt --in-place Example.re
 
 Before submitting your pull request, you'll want to verify the changes in two ways:
 
-* Run all the tests for the ReasonML exercises. There is a top level Makefile, run: ```make```.
-* Run checks on the repo using [configlet](https://github.com/exercism/docs/blob/master/language-tracks/configuration/configlet.md). From the top level, run: ```./bin/configlet lint --track-id reasonml .```
+* Run all the tests for the ReasonML exercises. There is a top level Makefile, run: `make`.
+* Run checks on the repo using [configlet](https://github.com/exercism/docs/blob/master/language-tracks/configuration/configlet.md). From the top level, run:
+
+```sh
+./bin/configlet lint --track-id reasonml .
+```
 
 ## Contributing a New Exercise
 
