@@ -4,6 +4,7 @@ let abbreviate = (input: string) : string => {
 
   input
   |> Js.String.splitByRe([%re "/[\\s-]/"])
+  |> Js.Array.map(Belt.Option.getExn)
   |> Js.Array.map(firstLetter)
   |> Js.Array.joinWith("");
 };

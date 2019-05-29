@@ -8,7 +8,7 @@ type speechType =
 let shouting = (input: string) : bool => input == String.uppercase(input);
 
 let alphaChars = (input: string) : bool =>
-  [%bs.re "/[a-zA-Z-]/"] |> Js.Re.test(input);
+  input |> Js.Re.test_([%bs.re "/[a-zA-Z-]/"]);
 
 let question = (input: string) : bool =>
   String.contains_from(input, String.length(input) - 1, '?');

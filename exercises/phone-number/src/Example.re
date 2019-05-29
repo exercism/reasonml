@@ -5,7 +5,7 @@ let phoneNumber = (input: string) : option(string) => {
   let checkFormat = (phone: string) : option(string) => {
     let re = [%re "/^1?[2-9]\\d{2}[2-9]\\d{2}\\d{4}$/"];
 
-    Js.Re.test(phone, re) ?
+    Js.Re.test_(re, phone) ?
       Some(Js.String.sliceToEnd(~from=-10, phone)) : None;
   };
 
