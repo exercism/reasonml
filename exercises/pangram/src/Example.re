@@ -17,7 +17,7 @@ let isPangram = (s: string) => {
   let alphabetBits = 1 lsl 26 - 1;
   let updateBits = (b, ch) => {
     let updated = {
-      let ch = Char.uppercase(ch);
+      let ch = Char.uppercase_ascii(ch);
       if (isUppercaseAlpha(ch)) {
         b lor 1 lsl (Char.code(ch) - Char.code('A'));
       } else {

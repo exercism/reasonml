@@ -9,7 +9,7 @@ let rec check_repeats = word_list =>
 let clean = List.filter(x => ! (x == '-' || x == ' '));
 
 let is_isogram = word =>
-  String.lowercase(word)
+  String.lowercase_ascii(word)
   |> Js.String.split("")
   |> charlist
   |> Array.to_list

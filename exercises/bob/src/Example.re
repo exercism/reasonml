@@ -5,7 +5,7 @@ type speechType =
   | Nothing
   | Other;
 
-let shouting = (input: string) : bool => input == String.uppercase(input);
+let shouting = (input: string) : bool => input == String.uppercase_ascii(input);
 
 let alphaChars = (input: string) : bool =>
   input |> Js.Re.test_([%bs.re "/[a-zA-Z-]/"]);
