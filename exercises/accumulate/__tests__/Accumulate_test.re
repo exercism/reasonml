@@ -20,7 +20,7 @@ describe("Accumulate", () => {
     expect(accumulate(square, [1, 2, 3])) |> toEqual([1, 4, 9])
   );
   test("toUpper Accumulate", () =>
-    expect(accumulate(String.uppercase, ["hello", "world"]))
+    expect(accumulate(String.uppercase_ascii, ["hello", "world"]))
     |> toEqual(["HELLO", "WORLD"])
   );
   test("reverse Accumulate", () =>

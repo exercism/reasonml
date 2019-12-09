@@ -7,8 +7,8 @@ let isAnagram = (base, word) =>
   if (String.length(base) != String.length(word)) {
     false;
   } else {
-    let base = String.lowercase(base);
-    let word = String.lowercase(word);
+    let base = String.lowercase_ascii(base);
+    let word = String.lowercase_ascii(word);
     if (base == word) {
       false;
     } else {
