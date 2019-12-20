@@ -54,10 +54,10 @@ let () =
     test("the sound for 52 is 52", () =>
       expect(Raindrops.raindrops(52)) |> toEqual("52")
     );
-    test("the sound for 105 is PlingPlangPlong", () =>
+    test("the sound for 105 is PlingPlangPlong as it has factors of 3, 5 and 7", () =>
       expect(Raindrops.raindrops(105)) |> toEqual("PlingPlangPlong")
     );
-    test("the sound for 3125 is Plang", () =>
+    test("the sound for 3125 is Plang as it has factor 5", () =>
       expect(Raindrops.raindrops(3125)) |> toEqual("Plang")
     );
   });
