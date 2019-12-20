@@ -51,10 +51,10 @@ let () =
     test("shouting numbers", () =>
       expect(Bob.hey("1, 2, 3 GO!")) |> toEqual("Whoa, chill out!")
     );
-    test("only numbers", () =>
+    test("no letters", () =>
       expect(Bob.hey("1, 2, 3")) |> toEqual("Whatever.")
     );
-    test("question with only numbers", () =>
+    test("question with no letters", () =>
       expect(Bob.hey("4?")) |> toEqual("Sure.")
     );
     test("shouting with special characters", () =>
@@ -67,6 +67,9 @@ let () =
     test("statement containing question mark", () =>
       expect(Bob.hey("Ending with a ? means a question."))
       |> toEqual("Whatever.")
+    );
+    test("non-letters with question", () =>
+      expect(Bob.hey(":) ?")) |> toEqual("Sure.")
     );
     test("prattling on", () =>
       expect(Bob.hey("Wait! Hang on.  Are you going to be OK?"))
