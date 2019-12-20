@@ -18,26 +18,32 @@ describe("Anagram", () => {
   test("detects three anagrams", () =>
     expect(anagrams("allergy", ["gallery", "ballerina", "regally", "clergy", "largely", "leading"]))  |> toEqual(["gallery", "regally", "largely"])
   );
-  test("does not detect non-anagrams(with identical checksum", () =>
+  test("detects multiple anagrams with different case", () =>
+    expect(anagrams("nose", ["Eons", "ONES"]))  |> toEqual(["Eons", "ONES"])
+  );
+  test("does not detect non-anagrams with identical checksum", () =>
     expect(anagrams("mass", ["last"]))  |> toEqual([])
   );
-  test("detects anagrams(case-insensitively", () =>
+  test("detects anagrams case-insensitively", () =>
     expect(anagrams("Orchestra", ["cashregister", "Carthorse", "radishes"]))  |> toEqual(["Carthorse"])
   );
-  test("detects anagrams(using case-insensitive subject", () =>
+  test("detects anagrams using case-insensitive subject", () =>
     expect(anagrams("Orchestra", ["cashregister", "carthorse", "radishes"])) |> toEqual(["carthorse"])
   );
-  test("detects anagrams(using case-insensitive possible matches", () =>
+  test("detects anagrams using case-insensitive possible matches", () =>
     expect(anagrams("orchestra", ["cashregister", "Carthorse", "radishes"])) |> toEqual(["Carthorse"])
   );
   test("does not detect a anagram if the original word is repeated", () =>
     expect(anagrams("go", ["go Go GO"])) |> toEqual([])
   );
-  test("anagrams(must use all letters exactly once", () =>
+  test("anagrams must use all letters exactly once", () =>
     expect(anagrams("tapper", ["patter"])) |> toEqual([])
   );
-  test("capital word is not own anagram", () =>
-    expect(anagrams("BANANA", ["Banana"])) |> toEqual([])
+  test("words are not anagrams of themselves (case-insensitive)", () =>
+    expect(anagrams("BANANA", ["BANANA", "Banana", "banana"])) |> toEqual([])
+  );
+  test("words other than themselves can be anagrams", () =>
+    expect(anagrams("LISTEN", ["Listen", "Silent", "LISTEN"])) |> toEqual(["Silent"])
   );
 })
 
