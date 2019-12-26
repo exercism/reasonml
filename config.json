@@ -19,6 +19,18 @@
       ]
     },
     {
+      "slug": "two-fer",
+      "uuid": "a75eef3f-97c0-4cf4-b375-f2fb3fe169d9",
+      "core": false,
+      "unlocked_by": "hello-world",
+      "difficulty": 1,
+      "topics": [
+        "functions",
+        "option",
+        "string_interpolation"
+      ]
+    },
+    {
       "slug": "leap",
       "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33",
       "core": true,
