@@ -31,6 +31,15 @@
       ]
     },
     {
+      "slug": "resistor-color",
+      "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
+      "core": false,
+      "unlocked_by": "hello-world",
+      "difficulty": 1,
+      "topics": [
+      ]
+    },
+    {
       "slug": "leap",
       "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33",
       "core": true,
