@@ -31,26 +31,6 @@
       ]
     },
     {
-      "slug": "two-fer",
-      "uuid": "a75eef3f-97c0-4cf4-b375-f2fb3fe169d9",
-      "core": false,
-      "unlocked_by": "hello-world",
-      "difficulty": 1,
-      "topics": [
-        "functions",
-        "option",
-        "string_interpolation"
-      ]
-    },
-    {
-      "slug": "resistor-color",
-      "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
-      "core": false,
-      "unlocked_by": "hello-world",
-      "difficulty": 1,
-      "topics": []
-    },
-    {
       "slug": "leap",
       "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33",
       "core": true,
@@ -59,18 +39,6 @@
       "topics": [
         "booleans",
         "integers"
-      ]
-    },
-    {
-      "slug": "space-age",
-      "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d",
-      "core": false,
-      "unlocked_by": "leap",
-      "difficulty": 2,
-      "topics": [
-        "enum_types",
-        "floating_point_arithmetic",
-        "fun_expressions"
       ]
     },
     {
@@ -113,62 +81,6 @@
       ]
     },
     {
-      "slug": "raindrops",
-      "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
-      "core": false,
-      "unlocked_by": "bob",
-      "difficulty": 2,
-      "topics": [
-        "fun_expressions",
-        "list_map_function"
-      ]
-    },
-    {
-      "slug": "armstrong-numbers",
-      "uuid": "cc660762-4006-40c2-bc3b-a7bb4ac69202",
-      "core": false,
-      "unlocked_by": "leap",
-      "difficulty": 2,
-      "topics": [
-        "algorithms",
-        "arrays",
-        "folding",
-        "math"
-      ]
-    },
-    {
-      "slug": "anagram",
-      "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
-      "core": false,
-      "unlocked_by": "word-count",
-      "difficulty": 3,
-      "topics": [
-        "filtering",
-        "strings"
-      ]
-    },
-    {
-      "slug": "pangram",
-      "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
-      "core": false,
-      "unlocked_by": "word-count",
-      "difficulty": 3,
-      "topics": [
-        "strings"
-      ]
-    },
-    {
-      "slug": "isogram",
-      "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
-      "core": false,
-      "unlocked_by": "word-count",
-      "difficulty": 3,
-      "topics": [
-        "lists",
-        "strings"
-      ]
-    },
-    {
       "slug": "phone-number",
       "uuid": "2721c31b-773e-43c5-93ab-f704d62e5cde",
       "core": true,
@@ -176,16 +88,6 @@
       "difficulty": 3,
       "topics": [
         "regular_expressions",
-        "strings"
-      ]
-    },
-    {
-      "slug": "roman-numerals",
-      "uuid": "fb891c45-82f1-422d-ac4e-00409668d6a7",
-      "core": false,
-      "unlocked_by": "leap",
-      "difficulty": 3,
-      "topics": [
         "strings"
       ]
     },
@@ -212,36 +114,137 @@
       ]
     },
     {
-      "slug": "minesweeper",
-      "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
+      "slug": "resistor-color",
+      "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
       "core": false,
-      "unlocked_by": "binary-search",
-      "difficulty": 5,
+      "unlocked_by": "hello-world",
+      "difficulty": 1,
+      "topics": []
+    },
+    {
+      "slug": "two-fer",
+      "uuid": "a75eef3f-97c0-4cf4-b375-f2fb3fe169d9",
+      "core": false,
+      "unlocked_by": "hello-world",
+      "difficulty": 1,
       "topics": [
+        "functions",
+        "option",
+        "string_interpolation"
+      ]
+    },
+    {
+      "slug": "armstrong-numbers",
+      "uuid": "cc660762-4006-40c2-bc3b-a7bb4ac69202",
+      "core": false,
+      "unlocked_by": "leap",
+      "difficulty": 2,
+      "topics": [
+        "algorithms",
         "arrays",
+        "folding",
+        "math"
+      ]
+    },
+    {
+      "slug": "space-age",
+      "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d",
+      "core": false,
+      "unlocked_by": "leap",
+      "difficulty": 2,
+      "topics": [
+        "enum_types",
+        "floating_point_arithmetic",
+        "fun_expressions"
+      ]
+    },
+    {
+      "slug": "roman-numerals",
+      "uuid": "fb891c45-82f1-422d-ac4e-00409668d6a7",
+      "core": false,
+      "unlocked_by": "leap",
+      "difficulty": 3,
+      "topics": [
         "strings"
       ]
     },
     {
-      "slug": "change",
-      "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
+      "slug": "raindrops",
+      "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
       "core": false,
-      "unlocked_by": "binary-search",
-      "difficulty": 5,
+      "unlocked_by": "bob",
+      "difficulty": 2,
       "topics": [
-        "dynamic_programming",
-        "integers",
-        "recursion"
+        "fun_expressions",
+        "list_map_function"
       ]
     },
     {
-      "slug": "acronym",
-      "uuid": "c6623707-e7e9-4ce9-9440-8bb87696bb73",
+      "slug": "allergies",
+      "uuid": "f964d022-1466-4c76-8877-0b0dda25578b",
       "core": false,
-      "unlocked_by": null,
+      "unlocked_by": "bob",
+      "difficulty": 4,
+      "topics": [
+        "arrays",
+        "bitwise_operations",
+        "integers",
+        "lists"
+      ]
+    },
+    {
+      "slug": "accumulate",
+      "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
+      "core": false,
+      "unlocked_by": "rna-transcription",
       "difficulty": 2,
       "topics": [
-        "regular_expressions",
+        "algorithms",
+        "folding",
+        "lists"
+      ]
+    },
+    {
+      "slug": "protein-translation",
+      "uuid": "c8e92ec5-d5e5-40dd-98ce-acc7f7263efe",
+      "core": false,
+      "unlocked_by": "rna-transcription",
+      "difficulty": 4,
+      "topics": [
+        "data_transform",
+        "hash_map_lookup",
+        "lists"
+      ]
+    },
+    {
+      "slug": "anagram",
+      "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
+      "core": false,
+      "unlocked_by": "word-count",
+      "difficulty": 3,
+      "topics": [
+        "filtering",
+        "strings"
+      ]
+    },
+    {
+      "slug": "isogram",
+      "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
+      "core": false,
+      "unlocked_by": "word-count",
+      "difficulty": 3,
+      "topics": [
+        "lists",
+        "strings"
+      ]
+    },
+    {
+      "slug": "pangram",
+      "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
+      "core": false,
+      "unlocked_by": "word-count",
+      "difficulty": 3,
+      "topics": [
         "strings"
       ]
     },
@@ -260,40 +263,37 @@
       ]
     },
     {
-      "slug": "accumulate",
-      "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
+      "slug": "change",
+      "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
       "core": false,
-      "unlocked_by": "rna-transcription",
-      "difficulty": 2,
+      "unlocked_by": "binary-search",
+      "difficulty": 5,
       "topics": [
-        "algorithms",
-        "folding",
-        "lists"
+        "dynamic_programming",
+        "integers",
+        "recursion"
       ]
     },
     {
-      "slug": "allergies",
-      "uuid": "f964d022-1466-4c76-8877-0b0dda25578b",
+      "slug": "minesweeper",
+      "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
       "core": false,
-      "unlocked_by": "bob",
-      "difficulty": 4,
+      "unlocked_by": "binary-search",
+      "difficulty": 5,
       "topics": [
         "arrays",
-        "bitwise_operations",
-        "integers",
-        "lists"
+        "strings"
       ]
     },
     {
-      "slug": "protein-translation",
-      "uuid": "c8e92ec5-d5e5-40dd-98ce-acc7f7263efe",
+      "slug": "acronym",
+      "uuid": "c6623707-e7e9-4ce9-9440-8bb87696bb73",
       "core": false,
-      "unlocked_by": "rna-transcription",
-      "difficulty": 4,
+      "unlocked_by": null,
+      "difficulty": 2,
       "topics": [
-        "data_transform",
-        "hash_map_lookup",
-        "lists"
+        "regular_expressions",
+        "strings"
       ]
     }
   ]
