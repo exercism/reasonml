@@ -1,6 +1,7 @@
 {
   "track_id": "reasonml",
   "language": "ReasonML",
+  "slug": "reasonml",
   "active": true,
   "status": {
     "concept_exercises": false,
