@@ -21,6 +21,7 @@
   "exercises": [
     {
       "slug": "hello-world",
+      "name": "Hello World",
       "uuid": "63d72b81-c7a4-4a94-8224-69f4c68cc374",
       "difficulty": 1,
       "topics": [
@@ -30,6 +31,7 @@
     },
     {
       "slug": "leap",
+      "name": "Leap",
       "uuid": "94d63245-0c40-40e4-952f-83ee4ef87b33",
       "difficulty": 1,
       "topics": [
@@ -39,6 +41,7 @@
     },
     {
       "slug": "bob",
+      "name": "Bob",
       "uuid": "88a4ce55-2c79-416c-930d-9e8923e16e45",
       "difficulty": 2,
       "topics": [
@@ -50,6 +53,7 @@
     },
     {
       "slug": "rna-transcription",
+      "name": "Rna Transcription",
       "uuid": "9690c216-d999-4b44-b73c-b7a8d776cf5d",
       "difficulty": 2,
       "topics": [
@@ -60,6 +64,7 @@
     },
     {
       "slug": "word-count",
+      "name": "Word Count",
       "uuid": "304edc6f-635c-4fd9-9b05-6a77e1929856",
       "difficulty": 2,
       "topics": [
@@ -72,6 +77,7 @@
     },
     {
       "slug": "phone-number",
+      "name": "Phone Number",
       "uuid": "2721c31b-773e-43c5-93ab-f704d62e5cde",
       "difficulty": 3,
       "topics": [
@@ -81,6 +87,7 @@
     },
     {
       "slug": "binary-search",
+      "name": "Binary Search",
       "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
       "difficulty": 4,
       "topics": [
@@ -90,6 +97,7 @@
     },
     {
       "slug": "run-length-encoding",
+      "name": "Run Length Encoding",
       "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
       "difficulty": 5,
       "topics": [
@@ -99,12 +107,14 @@
     },
     {
       "slug": "resistor-color",
+      "name": "Resistor Color",
       "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
       "difficulty": 1,
       "topics": []
     },
     {
       "slug": "two-fer",
+      "name": "Two Fer",
       "uuid": "a75eef3f-97c0-4cf4-b375-f2fb3fe169d9",
       "difficulty": 1,
       "topics": [
@@ -115,6 +125,7 @@
     },
     {
       "slug": "armstrong-numbers",
+      "name": "Armstrong Numbers",
       "uuid": "cc660762-4006-40c2-bc3b-a7bb4ac69202",
       "difficulty": 2,
       "topics": [
@@ -126,6 +137,7 @@
     },
     {
       "slug": "space-age",
+      "name": "Space Age",
       "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d",
       "difficulty": 2,
       "topics": [
@@ -136,6 +148,7 @@
     },
     {
       "slug": "roman-numerals",
+      "name": "Roman Numerals",
       "uuid": "fb891c45-82f1-422d-ac4e-00409668d6a7",
       "difficulty": 3,
       "topics": [
@@ -144,6 +157,7 @@
     },
     {
       "slug": "raindrops",
+      "name": "Raindrops",
       "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
       "difficulty": 2,
       "topics": [
@@ -153,6 +167,7 @@
     },
     {
       "slug": "allergies",
+      "name": "Allergies",
       "uuid": "f964d022-1466-4c76-8877-0b0dda25578b",
       "difficulty": 4,
       "topics": [
@@ -164,6 +179,7 @@
     },
     {
       "slug": "accumulate",
+      "name": "Accumulate",
       "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
       "difficulty": 2,
       "topics": [
@@ -174,6 +190,7 @@
     },
     {
       "slug": "protein-translation",
+      "name": "Protein Translation",
       "uuid": "c8e92ec5-d5e5-40dd-98ce-acc7f7263efe",
       "difficulty": 4,
       "topics": [
@@ -184,6 +201,7 @@
     },
     {
       "slug": "anagram",
+      "name": "Anagram",
       "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
       "difficulty": 3,
       "topics": [
@@ -193,6 +211,7 @@
     },
     {
       "slug": "isogram",
+      "name": "Isogram",
       "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
       "difficulty": 3,
       "topics": [
@@ -202,6 +221,7 @@
     },
     {
       "slug": "pangram",
+      "name": "Pangram",
       "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
       "difficulty": 3,
       "topics": [
@@ -210,6 +230,7 @@
     },
     {
       "slug": "all-your-base",
+      "name": "All Your Base",
       "uuid": "364cafb4-ada0-4f9f-87f0-c6cbf603fcba",
       "difficulty": 2,
       "topics": [
@@ -222,6 +243,7 @@
     },
     {
       "slug": "change",
+      "name": "Change",
       "uuid": "3526ae52-5962-43d6-ae83-dd6a9ca6e25b",
       "difficulty": 5,
       "topics": [
@@ -232,6 +254,7 @@
     },
     {
       "slug": "minesweeper",
+      "name": "Minesweeper",
       "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
       "difficulty": 5,
       "topics": [
@@ -241,6 +264,7 @@
     },
     {
       "slug": "acronym",
+      "name": "Acronym",
       "uuid": "c6623707-e7e9-4ce9-9440-8bb87696bb73",
       "difficulty": 2,
       "topics": [
