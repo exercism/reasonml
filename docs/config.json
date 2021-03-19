@@ -1,0 +1,32 @@
+{
+  "docs": [
+    {
+      "uuid": "91e9d7d6-9ad4-413a-b30c-7bd56727e2db",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing ReasonML locally",
+      "blurb": "Learn how to install ReasonML locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "8e274e97-4549-411b-b61a-e74c1df8747b",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn ReasonML",
+      "blurb": "An overview of how to get started from scratch with ReasonML"
+    },
+    {
+      "uuid": "6067dcea-015d-4e24-b1c1-4ac5bf876686",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the ReasonML track",
+      "blurb": "Learn how to test your ReasonML exercises on Exercism"
+    },
+    {
+      "uuid": "91df745c-616c-45b3-a283-44b06be15520",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful ReasonML resources",
+      "blurb": "A collection of useful resources to help you master ReasonML"
+    }
+  ]
+}
