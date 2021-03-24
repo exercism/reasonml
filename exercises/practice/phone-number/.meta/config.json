@@ -1,6 +1,14 @@
 {
   "blurb": "Clean up user-entered phone numbers so that they can be sent SMS messages.",
-  "authors": [],
+  "authors": [
+    "gabrielperales"
+  ],
+  "contributors": [
+    "naartjie",
+    "ohana54",
+    "stevejb71",
+    "tejasbubane"
+  ],
   "files": {
     "solution": [],
     "test": [],

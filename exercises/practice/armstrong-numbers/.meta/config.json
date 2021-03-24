@@ -1,6 +1,15 @@
 {
   "blurb": "Determine if a number is an Armstrong number",
-  "authors": [],
+  "authors": [
+    "tejasbubane"
+  ],
+  "contributors": [
+    "benreyn",
+    "naartjie",
+    "ohana54",
+    "sjwarner",
+    "stevejb71"
+  ],
   "files": {
     "solution": [],
     "test": [],
