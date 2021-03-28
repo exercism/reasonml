@@ -357,5 +357,16 @@
       "content": "Compiler guides you through all places that need to be fixed during refactor until it just works."
     }
   ],
-  "tags": []
+  "tags": [
+    "paradigm/functional",
+    "typing/static",
+    "typing/strong",
+    "execution_mode/compiled",
+    "platform/linux",
+    "platform/mac",
+    "platform/windows",
+    "platform/web",
+    "used_for/frontends",
+    "used_for/web_development"
+  ]
 }
