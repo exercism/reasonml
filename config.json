@@ -18,6 +18,23 @@
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
+  "files": {
+    "solution": [
+      "src/%{pascal_slug}.re"
+    ],
+    "test": [
+      "__tests__"
+    ],
+    "example": [
+      "src/Example.re"
+    ],
+    "exemplar": [
+      ".meta/src/Exemplar.re"
+    ],
+    "editor": [
+      "src/%{pascal_slug}.rei"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
