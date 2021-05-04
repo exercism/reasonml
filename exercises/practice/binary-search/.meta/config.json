@@ -5,9 +5,7 @@
     "solution": [
       "src/BinarySearch.re"
     ],
-    "test": [
-      "__tests__"
-    ],
+    "test": [],
     "example": [
       "src/Example.re"
     ]

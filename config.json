@@ -23,7 +23,7 @@
       "src/%{pascal_slug}.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/%{pascal_slug}_test.re"
     ],
     "example": [
       "src/Example.re"

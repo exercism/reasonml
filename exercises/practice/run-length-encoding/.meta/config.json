@@ -5,9 +5,7 @@
     "solution": [
       "src/RunLengthEncoding.re"
     ],
-    "test": [
-      "__tests__"
-    ],
+    "test": [],
     "example": [
       "src/Example.re"
     ]
