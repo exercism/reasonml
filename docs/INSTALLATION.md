@@ -1,3 +1,5 @@
+# Installation
+
 You will need the Node Package Manager (npm) to install Reason. Follow the instructions [here](https://www.npmjs.com/get-npm)
 
 Once you have npm, install Reason by:

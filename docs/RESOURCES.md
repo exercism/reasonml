@@ -1,3 +1,5 @@
+# Resources
+
 * [Reason home page](https://reasonml.github.io/)
 * [Reason Standard Library API](https://reasonml.github.io/api/index.html)
 * [Programmer blog](https://lucasmreis.github.io/blog/learning-reasonml-part-1/)
