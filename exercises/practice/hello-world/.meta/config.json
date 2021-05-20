@@ -5,7 +5,9 @@
     "solution": [
       "src/HelloWorld.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/HelloWorld_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

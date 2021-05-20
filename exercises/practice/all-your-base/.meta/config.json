@@ -5,7 +5,9 @@
     "solution": [
       "src/AllYourBase.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/AllYourBase_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

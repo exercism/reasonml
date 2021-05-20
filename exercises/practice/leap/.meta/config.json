@@ -5,7 +5,9 @@
     "solution": [
       "src/Leap.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Leap_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

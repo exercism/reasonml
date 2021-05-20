@@ -5,7 +5,9 @@
     "solution": [
       "src/Change.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Change_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

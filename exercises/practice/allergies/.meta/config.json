@@ -5,7 +5,9 @@
     "solution": [
       "src/Allergies.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Allergies_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

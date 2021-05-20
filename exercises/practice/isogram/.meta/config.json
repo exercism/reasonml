@@ -5,7 +5,9 @@
     "solution": [
       "src/Isogram.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Isogram_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

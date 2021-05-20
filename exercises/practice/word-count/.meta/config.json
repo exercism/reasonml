@@ -5,7 +5,9 @@
     "solution": [
       "src/WordCount.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/WordCount_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

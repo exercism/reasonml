@@ -5,7 +5,9 @@
     "solution": [
       "src/Anagram.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Anagram_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

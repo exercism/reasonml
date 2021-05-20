@@ -5,7 +5,9 @@
     "solution": [
       "src/Pangram.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Pangram_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

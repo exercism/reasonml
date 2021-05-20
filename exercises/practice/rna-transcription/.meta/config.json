@@ -5,7 +5,9 @@
     "solution": [
       "src/RnaTranscription.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/RnaTranscription_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

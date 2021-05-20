@@ -5,7 +5,9 @@
     "solution": [
       "src/PhoneNumber.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/PhoneNumber_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

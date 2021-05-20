@@ -5,7 +5,9 @@
     "solution": [
       "src/Minesweeper.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Minesweeper_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

@@ -5,7 +5,9 @@
     "solution": [
       "src/TwoFer.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/TwoFer_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

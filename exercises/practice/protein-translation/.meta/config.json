@@ -5,7 +5,9 @@
     "solution": [
       "src/ProteinTranslation.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/ProteinTranslation_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

@@ -5,7 +5,9 @@
     "solution": [
       "src/Accumulate.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Accumulate_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

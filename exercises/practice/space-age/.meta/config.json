@@ -5,7 +5,9 @@
     "solution": [
       "src/SpaceAge.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/SpaceAge_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

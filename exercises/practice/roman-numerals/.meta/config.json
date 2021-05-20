@@ -5,7 +5,9 @@
     "solution": [
       "src/RomanNumerals.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/RomanNumerals_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]

@@ -5,7 +5,9 @@
     "solution": [
       "src/Acronym.re"
     ],
-    "test": [],
+    "test": [
+      "__tests__/Acronym_test.re"
+    ],
     "example": [
       "src/Example.re"
     ]
