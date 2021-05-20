@@ -6,7 +6,7 @@
       "src/RunLengthEncoding.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/RunLengthEncoding_test.re"
     ],
     "example": [
       "src/Example.re"

@@ -6,7 +6,7 @@
       "src/WordCount.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/WordCount_test.re"
     ],
     "example": [
       "src/Example.re"

@@ -6,7 +6,7 @@
       "src/Bob.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/Bob_test.re"
     ],
     "example": [
       "src/Example.re"

@@ -6,7 +6,7 @@
       "src/RomanNumerals.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/RomanNumerals_test.re"
     ],
     "example": [
       "src/Example.re"

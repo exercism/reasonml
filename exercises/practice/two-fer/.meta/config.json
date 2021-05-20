@@ -6,7 +6,7 @@
       "src/TwoFer.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/TwoFer_test.re"
     ],
     "example": [
       "src/Example.re"

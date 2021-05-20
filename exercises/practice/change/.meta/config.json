@@ -6,7 +6,7 @@
       "src/Change.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/Change_test.re"
     ],
     "example": [
       "src/Example.re"

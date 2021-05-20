@@ -6,7 +6,7 @@
       "src/PhoneNumber.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/PhoneNumber_test.re"
     ],
     "example": [
       "src/Example.re"

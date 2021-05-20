@@ -6,7 +6,7 @@
       "src/Raindrops.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/Raindrops_test.re"
     ],
     "example": [
       "src/Example.re"

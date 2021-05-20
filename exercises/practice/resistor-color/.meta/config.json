@@ -6,7 +6,7 @@
       "src/ResistorColor.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/ResistorColor_test.re"
     ],
     "example": [
       "src/Example.re"

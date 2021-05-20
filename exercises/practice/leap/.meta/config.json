@@ -6,7 +6,7 @@
       "src/Leap.re"
     ],
     "test": [
-      "__tests__"
+      "__tests__/Leap_test.re"
     ],
     "example": [
       "src/Example.re"
