@@ -1,0 +1,72 @@
+- name: "bug"
+  description: "Something isn't working"
+  color: "d73a4a"
+
+- name: "chore"
+  description: ""
+  color: "f9caac"
+
+- name: "dependencies"
+  description: "Pull requests that update a dependency file"
+  color: "0366d6"
+
+- name: "discussion"
+  description: ""
+  color: "bfd4f2"
+
+- name: "duplicate"
+  description: "This issue or pull request already exists"
+  color: "cfd3d7"
+
+- name: "easy"
+  description: "Issues for beginners"
+  color: "58ef5b"
+
+- name: "enhancement"
+  description: "New feature or request"
+  color: "a2eeef"
+
+- name: "good first issue"
+  description: "Good for newcomers"
+  color: "7057ff"
+
+- name: "hacktoberfest"
+  description: ""
+  color: "79e86f"
+
+- name: "help wanted"
+  description: "Extra attention is needed"
+  color: "008672"
+
+- name: "housekeeping"
+  description: ""
+  color: "b6f5f9"
+
+- name: "intermediate"
+  description: "Issues with intermediate difficulty level"
+  color: "efc2a0"
+
+- name: "invalid"
+  description: "This doesn't seem right"
+  color: "e4e669"
+
+- name: "javascript"
+  description: "Pull requests that update Javascript code"
+  color: "168700"
+
+- name: "new exercise :sparkles:"
+  description: ""
+  color: "b9f73d"
+
+- name: "question"
+  description: "Further information is requested"
+  color: "d876e3"
+
+- name: "v3-migration 🤖"
+  description: "Preparing for Exercism v3"
+  color: "E99695"
+
+- name: "wontfix"
+  description: "This will not be worked on"
+  color: "ffffff"
+
