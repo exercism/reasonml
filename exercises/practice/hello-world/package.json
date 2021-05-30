@@ -2,11 +2,9 @@
   "name": "exercism-reasonml",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
-    "test": "jest --watchAll --env=node",
-    "test:ci": "jest --ci --bail --no-cache --env=node"
+    "build": "rescript",
+    "start": "rescript build -w",
+    "test": "npm run build && jest --no-cache lib/es6/__tests__"
   },
   "keywords": [
     "BuckleScript"
@@ -14,7 +12,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.5.1",
-    "bs-platform": "^7.3.2"
+    "@babel/preset-env": "^7.14.4",
+    "@glennsl/bs-jest": "^0.7.0",
+    "rescript": "^9.1.2"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@glennsl/bs-jest|bs-platform|rescript).+\\.js$"
+    ]
   }
 }
