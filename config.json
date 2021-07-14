@@ -19,9 +19,6 @@
   "test_runner": {
     "average_run_time": 7.0
   },
-  "ignore_pattern": "[Ee]xample",
-  "solution_pattern": "[Ee]xample",
-  "test_pattern": "[Tt]est",
   "files": {
     "solution": [
       "src/%{pascal_slug}.re"
