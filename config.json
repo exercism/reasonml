@@ -345,32 +345,32 @@
   "concepts": [],
   "key_features": [
     {
-      "icon": "features-ocaml-types",
+      "icon": "stable",
       "title": "OCaml's type system",
       "content": "ReScript brings OCaml's battle-tested powerful type system to Javascript."
     },
     {
-      "icon": "features-no-annotations",
+      "icon": "immutable",
       "title": "Inferred types",
       "content": "No need to specify types, types are inferred by ReScript compiler and are guaranteed to be correct."
     },
     {
-      "icon": "features-functional",
+      "icon": "functional",
       "title": "Functional Programming",
       "content": "Like OCaml, ReScript is a functional programming language with pattern matching, variants and more."
     },
     {
-      "icon": "features-js-interop",
+      "icon": "interop",
       "title": "Easy javascript interop",
       "content": "Javascript interop is easy allowing advatange of existing javascript packages and ecosystem."
     },
     {
-      "icon": "features-fast-compiler",
+      "icon": "fast",
       "title": "Fast compiler",
       "content": "ReScript compilation times are super fast which means fast iteration cycles."
     },
     {
-      "icon": "features-refactoring-ease",
+      "icon": "fun",
       "title": "Refactor with ease",
       "content": "Compiler guides you through all places that need to be fixed during refactor until it just works."
     }
