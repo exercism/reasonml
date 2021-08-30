@@ -16,7 +16,7 @@
       "__tests__/RomanNumerals_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "The Roman Numeral Kata",

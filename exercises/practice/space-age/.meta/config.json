@@ -17,7 +17,7 @@
       "__tests__/SpaceAge_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial.",

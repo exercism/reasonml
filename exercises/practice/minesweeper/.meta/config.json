@@ -16,7 +16,7 @@
       "__tests__/Minesweeper_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   }
 }

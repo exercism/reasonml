@@ -18,7 +18,7 @@
       "__tests__/Allergies_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "Jumpstart Lab Warm-up",
