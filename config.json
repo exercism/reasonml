@@ -1,7 +1,7 @@
 {
-  "track_id": "reasonml",
-  "language": "ReasonML",
-  "slug": "reasonml",
+  "track_id": "rescript",
+  "language": "ReScript",
+  "slug": "rescript",
   "active": true,
   "status": {
     "concept_exercises": false,
@@ -9,7 +9,7 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "ReasonML is a strongly typed functional language which compiles to both Javascript and native.",
+  "blurb": "ReScript is a strongly typed functional language which compiles to both Javascript and native.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
