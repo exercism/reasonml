@@ -10,15 +10,9 @@
     "stevejb71"
   ],
   "files": {
-    "solution": [
-      "src/HelloWorld.re"
-    ],
-    "test": [
-      "__tests__/HelloWorld_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/HelloWorld.res"],
+    "test": ["tests/HelloWorld_test.res"],
+    "example": [".meta/HelloWorld.res"]
   },
   "source": "This is an exercise to introduce users to using Exercism",
   "source_url": "http://en.wikipedia.org/wiki/%22Hello,_world!%22_program"
