@@ -1,5 +1,5 @@
 ---
-name: CI
+name: ReScript CI
 
 on:
   pull_request:
@@ -13,14 +13,27 @@ on:
       - "LICENSE"
 
 jobs:
-  build:
-    name: Test Runner
+  ci:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout PR
+        uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f
 
-      - name: Build Docker Image
-        run: docker build -f Dockerfile -t generic-test-runner .
+      - name: Use Node.js LTS ${{ matrix.node-version }}
+        uses: actions/setup-node@25316bbc1f10ac9d8798711f44914b1cf3c4e954
+        with:
+          node-version: ${{ matrix.node-version }}
 
-      - name: Run Tests
-        run: docker run -w "/opt/test-runner" --entrypoint "bin/run-tests.sh" generic-test-runner
+      - name: Install project dependencies
+        run: npm install
+
+      - name: Copy files
+        run: make copy-exercises
+
+      - name: Run tests for all exercises
+        run: npm run ci
