@@ -11,7 +11,7 @@
       "__tests__/TwoFer_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source_url": "https://github.com/exercism/problem-specifications/issues/757"

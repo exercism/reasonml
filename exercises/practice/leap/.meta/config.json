@@ -16,7 +16,7 @@
       "__tests__/Leap_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "JavaRanch Cattle Drive, exercise 3",

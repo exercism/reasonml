@@ -16,7 +16,7 @@
       "__tests__/Anagram_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "Inspired by the Extreme Startup game",

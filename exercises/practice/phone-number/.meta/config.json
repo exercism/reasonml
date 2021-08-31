@@ -17,7 +17,7 @@
       "__tests__/PhoneNumber_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "Event Manager by JumpstartLab",

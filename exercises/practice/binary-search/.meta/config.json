@@ -16,7 +16,7 @@
       "__tests__/BinarySearch_test.re"
     ],
     "example": [
-      "src/Example.re"
+      ".meta/src/Example.re"
     ]
   },
   "source": "Wikipedia",
