@@ -11,15 +11,9 @@
     "tejasbubane"
   ],
   "files": {
-    "solution": [
-      "src/Accumulate.re"
-    ],
-    "test": [
-      "__tests__/Accumulate_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/Accumulate.res"],
+    "test": ["tests/Accumulate_test.res"],
+    "example": [".meta/Accumulate.res"]
   },
   "source": "Conversation with James Edward Gray II",
   "source_url": "https://twitter.com/jeg2"

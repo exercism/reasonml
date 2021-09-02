@@ -1,1 +1,1 @@
-let hello = () => "Change this to make the tests pass";
+let hello = () => "Change this to make the tests pass"
