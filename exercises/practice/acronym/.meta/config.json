@@ -11,15 +11,9 @@
     "tejasbubane"
   ],
   "files": {
-    "solution": [
-      "src/Acronym.re"
-    ],
-    "test": [
-      "__tests__/Acronym_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/Acronym.res"],
+    "test": ["tests/Acronym_test.res"],
+    "example": [".meta/Acronym.res"]
   },
   "source": "Julien Vanier",
   "source_url": "https://github.com/monkbroc"
