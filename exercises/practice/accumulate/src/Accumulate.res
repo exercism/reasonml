@@ -1,1 +1,1 @@
-let accumulate = [] // Define this function to make tests pass
+let accumulate = () => [] // Define this function to make the tests pass
