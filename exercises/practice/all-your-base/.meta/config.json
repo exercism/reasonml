@@ -11,14 +11,8 @@
     "tejasbubane"
   ],
   "files": {
-    "solution": [
-      "src/AllYourBase.re"
-    ],
-    "test": [
-      "__tests__/AllYourBase_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/AllYourBase.res"],
+    "test": ["tests/AllYourBase_test.res"],
+    "example": [".meta/AllYourBase.res"]
   }
 }
