@@ -11,15 +11,9 @@
     "tejasbubane"
   ],
   "files": {
-    "solution": [
-      "src/Allergies.re"
-    ],
-    "test": [
-      "__tests__/Allergies_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/Allergies.res"],
+    "test": ["tests/Allergies_test.res"],
+    "example": [".meta/Allergies.res"]
   },
   "source": "Jumpstart Lab Warm-up",
   "source_url": "http://jumpstartlab.com"
