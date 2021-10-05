@@ -1,20 +1,24 @@
 {
-  "name": "exercism-rescript",
-  "version": "0.1.0",
-  "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
-    "test": "jest --watchAll --env=node",
-    "test:ci": "jest --ci --bail --no-cache --env=node"
-  },
-  "keywords": [
-    "BuckleScript"
+  "name": "@exercism/rescript-acronym",
+  "description": "Exercism exercises in ReScript.",
+  "contributors": [
+    "Tejas Bubane (https://tejasbubane.github.io/)"
   ],
-  "author": "",
+  "private": true,
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exercism/reasonml",
+    "directory": "exercises/practice/acronym"
+  },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.5.1",
-    "bs-platform": "^7.3.2"
-  }
+    "rescript": "^9.1.4",
+    "rescript-test": "^3.1.0"
+  },
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "test": "retest tests/*.mjs"
+  },
+  "dependencies": {}
 }
