@@ -1,5 +1,5 @@
 {
-  "name": "@exercism/rescript-acronym",
+  "name": "@exercism/rescript-allergies",
   "description": "Exercism exercises in ReScript.",
   "contributors": [
     "Tejas Bubane (https://tejasbubane.github.io/)"
@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/exercism/reasonml",
-    "directory": "exercises/practice/acronym"
+    "directory": "exercises/practice/allergies"
   },
   "devDependencies": {
     "rescript": "^9.1.4",
