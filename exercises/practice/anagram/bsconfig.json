@@ -1,30 +1,17 @@
-// This is the configuration file used by BuckleScript's build system bsb. Its documentation lives here: http://bucklescript.github.io/bucklescript/docson/#build-schema.json
-// BuckleScript comes with its own parser for bsconfig.json, which is normal JSON, with the extra support of comments and trailing commas.
 {
-  "name": "anagram",
-  "version": "0.1.0",
+  "name": "@exercism/rescript-acronym",
   "sources": [
+    { "dir": "src", "subdirs": true },
+    { "dir": "tests", "subdirs": true, "type": "dev" }
+  ],
+  "package-specs": [
     {
-      "dir" : "src",
-      "subdirs" : true
-    },
-    {
-      "dir": "__tests__",
-      "type": "dev"
+      "module": "es6-global",
+      "in-source": true
     }
   ],
-  "package-specs": {
-    "module": "commonjs",
-    "in-source": true
-  },
-  "suffix": ".bs.js",
-  "bs-dependencies": [
-      // add your dependencies here. You'd usually install them normally through `npm install my-dependency`. If my-dependency has a bsconfig.json too, then everything will work seamlessly.
-  ],
-  "bs-dev-dependencies": ["@glennsl/bs-jest"],
-  "warnings": {
-    "error" : "+101"
-  },
-  "namespace": true,
-  "refmt": 3
+  "suffix": ".mjs",
+  "bs-dev-dependencies": [
+    "rescript-test"
+  ]
 }

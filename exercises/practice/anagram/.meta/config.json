@@ -9,15 +9,9 @@
     "tejasbubane"
   ],
   "files": {
-    "solution": [
-      "src/Anagram.re"
-    ],
-    "test": [
-      "__tests__/Anagram_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/Anagram.res"],
+    "test": ["tests/Anagram_test.res"],
+    "example": [".meta/Anagram.res"]
   },
   "source": "Inspired by the Extreme Startup game",
   "source_url": "https://github.com/rchatley/extreme_startup"

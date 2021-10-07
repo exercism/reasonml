@@ -1,5 +1,5 @@
 {
-  "name": "@exercism/rescript-acronym",
+  "name": "@exercism/rescript-all-your-base",
   "sources": [
     { "dir": "src", "subdirs": true },
     { "dir": "tests", "subdirs": true, "type": "dev" }

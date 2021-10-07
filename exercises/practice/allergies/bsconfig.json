@@ -1,5 +1,5 @@
 {
-  "name": "@exercism/rescript-acronym",
+  "name": "@exercism/rescript-allergies",
   "sources": [
     { "dir": "src", "subdirs": true },
     { "dir": "tests", "subdirs": true, "type": "dev" }
