@@ -11,15 +11,9 @@
     "stevejb71"
   ],
   "files": {
-    "solution": [
-      "src/ArmstrongNumbers.re"
-    ],
-    "test": [
-      "__tests__/ArmstrongNumbers_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/ArmstrongNumbers.res"],
+    "test": ["tests/ArmstrongNumbers_test.res"],
+    "example": [".meta/ArmstrongNumbers.res"]
   },
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Narcissistic_number"
