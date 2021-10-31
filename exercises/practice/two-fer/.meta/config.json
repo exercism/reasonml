@@ -4,15 +4,9 @@
     "tejasbubane"
   ],
   "files": {
-    "solution": [
-      "src/TwoFer.re"
-    ],
-    "test": [
-      "__tests__/TwoFer_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/TwoFer.res"],
+    "test": ["tests/TwoFer_test.res"],
+    "example": [".meta/TwoFer.res"]
   },
   "source_url": "https://github.com/exercism/problem-specifications/issues/757"
 }
