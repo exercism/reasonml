@@ -1,1 +1,0 @@
-let validate: int => bool;
