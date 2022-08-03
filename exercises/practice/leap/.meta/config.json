@@ -6,18 +6,13 @@
   "contributors": [
     "naartjie",
     "ohana54",
-    "tejasbubane"
+    "tejasbubane",
+    "MiryangJung"
   ],
   "files": {
-    "solution": [
-      "src/Leap.re"
-    ],
-    "test": [
-      "__tests__/Leap_test.re"
-    ],
-    "example": [
-      ".meta/src/Example.re"
-    ]
+    "solution": ["src/Leap.res"],
+    "test": ["tests/Leap_test.res"],
+    "example": [".meta/src/Leap.res"]
   },
   "source": "JavaRanch Cattle Drive, exercise 3",
   "source_url": "http://www.javaranch.com/leap.jsp"
