@@ -12,13 +12,13 @@
   ],
   "files": {
     "solution": [
-      "src/WordCount.re"
+      "src/WordCount.res"
     ],
     "test": [
-      "__tests__/WordCount_test.re"
+      "tests/WordCount_test.res"
     ],
     "example": [
-      ".meta/src/Example.re"
+      ".meta/src/WordCount.res"
     ]
   },
   "source": "This is a classic toy problem, but we were reminded of it by seeing it in the Go Tour."
