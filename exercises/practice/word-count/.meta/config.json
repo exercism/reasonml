@@ -15,7 +15,7 @@
       "src/WordCount.res"
     ],
     "test": [
-      "__tests__/WordCount_test.res"
+      "tests/WordCount_test.res"
     ],
     "example": [
       ".meta/src/WordCount.res"
