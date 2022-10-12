@@ -79,7 +79,7 @@
       },
       {
         "slug": "rna-transcription",
-        "name": "Rna Transcription",
+        "name": "RNA Transcription",
         "uuid": "9690c216-d999-4b44-b73c-b7a8d776cf5d",
         "practices": [],
         "prerequisites": [],
@@ -131,7 +131,7 @@
       },
       {
         "slug": "run-length-encoding",
-        "name": "Run Length Encoding",
+        "name": "Run-Length Encoding",
         "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
         "practices": [],
         "prerequisites": [],
