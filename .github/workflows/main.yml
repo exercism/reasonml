@@ -21,4 +21,6 @@ jobs:
 
       - name: Install reasonml
         run: npm install -g esy
+      - name: Run tests
+        run: bin/test-exercises.sh
         
