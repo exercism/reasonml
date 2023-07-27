@@ -6,7 +6,7 @@ test_run() {
     echo "source_file: ${source_file}"
     cat "$1/.meta/src/Example.re" > "${dic}/${source_file}"
     cat "$1/${test_file}" > "${dic}/${test_file}"
-    npm run build && npm run test:ci || exit 1
+    npm i && npm run build && npm run test:ci || exit 1
 }
 
 for exercise in ./exercises/practice/*; do
