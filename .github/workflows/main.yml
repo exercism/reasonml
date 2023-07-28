@@ -15,12 +15,12 @@ on:
 jobs:
   build:
     name: Test Runner
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
 
-      - name: Build Docker Image
-        run: docker build -f Dockerfile -t generic-test-runner .
-
-      - name: Run Tests
-        run: docker run -w "/opt/test-runner" --entrypoint "bin/run-tests.sh" generic-test-runner
+      - name: Install reasonml
+        run: npm install -g esy
+      - name: Run tests
+        run: ./bin/test-exercises.sh
+        
