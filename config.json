@@ -339,6 +339,14 @@
           "regular_expressions",
           "strings"
         ]
+      },
+      {
+        "slug": "triangle",
+        "name": "Triangle",
+        "uuid": "01d5ea7c-00f3-4acc-900a-387ba54d348e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },
