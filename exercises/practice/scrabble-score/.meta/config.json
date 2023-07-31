@@ -1,0 +1,17 @@
+{
+  "authors": ["meatball133"],
+  "files": {
+    "solution": [
+      "src/ScrabbleScore.re"
+    ],
+    "test": [
+      "__tests__/ScrabbleScore_test.re"
+    ],
+    "example": [
+      ".meta/src/Example.re"
+    ]
+  },
+  "blurb": "Given a word, compute the Scrabble score for that word.",
+  "source": "Inspired by the Extreme Startup game",
+  "source_url": "https://github.com/rchatley/extreme_startup"
+}

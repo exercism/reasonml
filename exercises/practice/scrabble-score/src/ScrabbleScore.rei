@@ -1,0 +1,1 @@
+let score: string => int;
