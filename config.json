@@ -364,27 +364,27 @@
     {
       "icon": "stable",
       "title": "OCaml's type system",
-      "content": "ReScript brings OCaml's battle-tested powerful type system to Javascript."
+      "content": "ReasonML brings OCaml's battle-tested powerful type system to Javascript."
     },
     {
       "icon": "immutable",
       "title": "Inferred types",
-      "content": "No need to specify types, types are inferred by ReScript compiler and are guaranteed to be correct."
+      "content": "No need to specify types, types are inferred by the compiler and are guaranteed to be correct."
     },
     {
       "icon": "functional",
       "title": "Functional Programming",
-      "content": "Like OCaml, ReScript is a functional programming language with pattern matching, variants and more."
+      "content": "Like OCaml, ReasonML is a functional programming language with pattern matching, variants and more."
     },
     {
       "icon": "interop",
       "title": "Easy javascript interop",
-      "content": "Javascript interop is easy allowing advatange of existing javascript packages and ecosystem."
+      "content": "JavaScript interop is easy allowing advatange of existing javascript packages and ecosystem."
     },
     {
       "icon": "fast",
       "title": "Fast compiler",
-      "content": "ReScript compilation times are super fast which means fast iteration cycles."
+      "content": "ReasonML compilation times are super fast which means fast iteration cycles."
     },
     {
       "icon": "fun",
