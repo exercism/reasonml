@@ -1,5 +1,5 @@
 {
-  "blurb": "Correctly determine change to be given using the least number of coins",
+  "blurb": "Correctly determine change to be given using the least number of coins.",
   "authors": [
     "stevejb71"
   ],
@@ -18,6 +18,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/Change.rei"
     ]
   },
   "source": "Software Craftsmanship - Coin Change Kata",

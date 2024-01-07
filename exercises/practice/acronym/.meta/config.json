@@ -1,5 +1,5 @@
 {
-  "blurb": "Convert a long phrase to its acronym",
+  "blurb": "Convert a long phrase to its acronym.",
   "authors": [
     "gabrielperales"
   ],
@@ -19,6 +19,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/Acronym.rei"
     ]
   },
   "source": "Julien Vanier",
