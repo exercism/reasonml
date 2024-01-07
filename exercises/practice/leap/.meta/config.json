@@ -16,6 +16,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/Leap.rei"
     ]
   },
   "blurb": "Given a year, report if it is a leap year.",

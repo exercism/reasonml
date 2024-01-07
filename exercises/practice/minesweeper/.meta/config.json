@@ -16,6 +16,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/Minesweeper.rei"
     ]
   },
   "blurb": "Add the numbers to a minesweeper board"

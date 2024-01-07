@@ -11,6 +11,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/ScrabbleScore.rei"
     ]
   },
   "blurb": "Given a word, compute the Scrabble score for that word.",

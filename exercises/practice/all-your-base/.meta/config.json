@@ -18,6 +18,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/AllYourBase.rei"
     ]
   },
   "blurb": "Convert a number, represented as a sequence of digits in one base, to any other base."

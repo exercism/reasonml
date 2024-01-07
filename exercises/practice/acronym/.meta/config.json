@@ -18,6 +18,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/Acronym.rei"
     ]
   },
   "blurb": "Convert a long phrase to its acronym",
