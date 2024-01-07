@@ -1,6 +1,6 @@
 # Exercism ReasonML Track
 
-![build status](https://travis-ci.org/exercism/reasonml.svg?branch=master)
+[![Configlet](https://github.com/exercism/reasonml/actions/workflows/configlet.yml/badge.svg)](https://github.com/exercism/reasonml/actions/workflows/configlet.yml) [![CI](https://github.com/exercism/reasonml/actions/workflows/main.yml/badge.svg)](https://github.com/exercism/reasonml/actions/workflows/main.yml)
 
 ## Setup
 
