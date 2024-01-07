@@ -18,6 +18,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/ProteinTranslation.rei"
     ]
   },
   "source": "Tyler Long"

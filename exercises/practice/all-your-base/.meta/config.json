@@ -19,6 +19,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/AllYourBase.rei"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "blurb": "Create a sentence of the form \"One for X, one for me.\"",
+  "blurb": "Create a sentence of the form \"One for X, one for me.\".",
   "authors": [
     "tejasbubane"
   ],
@@ -12,6 +12,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/TwoFer.rei"
     ]
   },
   "source_url": "https://github.com/exercism/problem-specifications/issues/757"

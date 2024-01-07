@@ -18,8 +18,11 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/SpaceAge.rei"
     ]
   },
   "source": "Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial.",
-  "source_url": "http://pine.fm/LearnToProgram/?Chapter=01"
+  "source_url": "https://pine.fm/LearnToProgram/?Chapter=01"
 }

@@ -1,5 +1,5 @@
 {
-  "blurb": "Convert a resistor band's color to its numeric representation",
+  "blurb": "Convert a resistor band's color to its numeric representation.",
   "authors": [
     "tejasbubane"
   ],
@@ -12,6 +12,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/ResistorColor.rei"
     ]
   },
   "source": "Maud de Vries, Erik Schierboom",
