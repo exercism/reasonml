@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "kahgoh"
+  ],
+  "files": {
+    "solution": [
+      "src/ListOps.re"
+    ],
+    "test": [
+      "__tests__/ListOps_test.re"
+    ],
+    "example": [
+      ".meta/src/Example.re"
+    ]
+  },
+  "blurb": "Implement basic list operations."
+}

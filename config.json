@@ -37,7 +37,6 @@
     ]
   },
   "exercises": {
-    "concept": [],
     "practice": [
       {
         "slug": "hello-world",
@@ -123,8 +122,7 @@
         "uuid": "6481f0dc-faaa-4c93-a380-953619f4934b",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 3,
-        "topics": []
+        "difficulty": 3
       },
       {
         "slug": "binary-search",
@@ -156,8 +154,7 @@
         "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 1,
-        "topics": []
+        "difficulty": 1
       },
       {
         "slug": "two-fer",
@@ -356,51 +353,58 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "list-ops",
+        "name": "List Ops",
+        "uuid": "17bed5bf-1795-4d51-b1cb-89d7d960d9ee",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },
-  "concepts": [],
   "key_features": [
     {
-      "icon": "stable",
       "title": "OCaml's type system",
-      "content": "ReasonML brings OCaml's battle-tested powerful type system to Javascript."
+      "content": "ReasonML brings OCaml's battle-tested powerful type system to Javascript.",
+      "icon": "stable"
     },
     {
-      "icon": "immutable",
       "title": "Inferred types",
-      "content": "No need to specify types, types are inferred by the compiler and are guaranteed to be correct."
+      "content": "No need to specify types, types are inferred by the compiler and are guaranteed to be correct.",
+      "icon": "immutable"
     },
     {
-      "icon": "functional",
       "title": "Functional Programming",
-      "content": "Like OCaml, ReasonML is a functional programming language with pattern matching, variants and more."
+      "content": "Like OCaml, ReasonML is a functional programming language with pattern matching, variants and more.",
+      "icon": "functional"
     },
     {
-      "icon": "interop",
       "title": "Easy javascript interop",
-      "content": "JavaScript interop is easy allowing advatange of existing javascript packages and ecosystem."
+      "content": "JavaScript interop is easy allowing advatange of existing javascript packages and ecosystem.",
+      "icon": "interop"
     },
     {
-      "icon": "fast",
       "title": "Fast compiler",
-      "content": "ReasonML compilation times are super fast which means fast iteration cycles."
+      "content": "ReasonML compilation times are super fast which means fast iteration cycles.",
+      "icon": "fast"
     },
     {
-      "icon": "fun",
       "title": "Refactor with ease",
-      "content": "Compiler guides you through all places that need to be fixed during refactor until it just works."
+      "content": "Compiler guides you through all places that need to be fixed during refactor until it just works.",
+      "icon": "fun"
     }
   ],
   "tags": [
-    "paradigm/functional",
-    "typing/static",
-    "typing/strong",
     "execution_mode/compiled",
+    "paradigm/functional",
     "platform/linux",
     "platform/mac",
-    "platform/windows",
     "platform/web",
+    "platform/windows",
+    "typing/static",
+    "typing/strong",
     "used_for/frontends",
     "used_for/web_development"
   ]
