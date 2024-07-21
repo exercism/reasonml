@@ -1,5 +1,4 @@
 {
-  "track_id": "reasonml",
   "language": "ReasonML",
   "slug": "reasonml",
   "active": true,
@@ -361,6 +360,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "knapsack",
+        "name": "Knapsack",
+        "uuid": "3ca5c513-9a92-47bc-974f-bd1d72d97efd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
       }
     ]
   },
