@@ -16,6 +16,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/Pangram.rei"
     ]
   },
   "blurb": "Determine if a sentence is a pangram.",

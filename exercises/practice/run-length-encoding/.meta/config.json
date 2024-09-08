@@ -16,6 +16,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/RunLengthEncoding.rei"
     ]
   },
   "blurb": "Implement run-length encoding and decoding.",
