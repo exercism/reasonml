@@ -1,5 +1,7 @@
 {
-  "authors": ["bethanyg"],
+  "authors": [
+    "bethanyg"
+  ],
   "files": {
     "solution": [
       "src/Triangle.re"
