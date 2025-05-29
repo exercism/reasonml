@@ -11,6 +11,6 @@ depends: [
   "reason" {>= "3.14.0"}
   "dune" {>= "3.9"}
   "melange" {>= "4.0.0"}
-  "melange-fest" {>= "0.1.0"}
+  "melange-fest" {with-test}
 ]
 dev-repo: "git+https://github.com/your/project.git"

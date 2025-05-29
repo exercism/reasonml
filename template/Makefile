@@ -10,18 +10,23 @@ help: ## Print this help message
 	@echo "";
 
 .PHONY: install
-install: ## Install development dependencies
+install: ## Install development and test dependencies
 	opam update
-	opam install -y . --deps-only
-
-.PHONY: test
-test: ## Run built tests using node
-	$(DUNE) build
-	node runtests.js
+	opam install . --with-test --deps-only
 
 .PHONY: build
 build: ## Build the project
 	$(DUNE) build
+
+.PHONY: test
+test: ## Run built tests using node
+	$(DUNE) build
+	node _build/default/test/test/test/lib_test.js
+
+.PHONY: run
+run: ## Run the built JS script with node
+	$(DUNE) build
+	node _build/default/app/app.js
 
 .PHONY: build_verbose
 build_verbose: ## Build the project

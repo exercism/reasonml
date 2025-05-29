@@ -1,1 +1,1 @@
-let () = Js.log(Lib.name);
+let () = Js.log("Hello " ++  Lib.name);
