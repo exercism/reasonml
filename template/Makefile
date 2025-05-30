@@ -20,8 +20,7 @@ build: ## Build the project
 
 .PHONY: test
 test: ## Run built tests using node
-	$(DUNE) build
-	node _build/default/test/test/test/lib_test.js
+	$(DUNE) build @runtest --no-buffer
 
 .PHONY: run
 run: ## Run the built JS script with node
