@@ -1,3 +1,16 @@
 (lang dune 3.17)
 
 (using melange 0.1)
+
+(package
+ (name exercism-template)
+ (synopsis "Exercism exercise template")
+ (description "")
+ (allow_empty)
+ (depends
+  (ocaml (= 5.1.1))
+  (dune (>= 3.17))
+  (melange (>= 4.0 ))
+  (reason (>= 3.15))
+  (ocaml-lsp-server :dev)
+  (melange-jest :with-test)))

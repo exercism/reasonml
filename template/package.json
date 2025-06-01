@@ -1,0 +1,19 @@
+{
+  "name": "$(name)",
+  "version": "0.1.0",
+  "scripts": {
+    "dune": "opam exec -- dune",
+    "build": "npm run dune -- build",
+    "start": "npm run build -- --watch",
+    "clean": "npm run dune -- clean",
+    "format": "npm run format:check -- --auto-promote",
+    "format:check": "npm run dune -- build @fmt",
+    "test": "jest --watchAll",
+    "test:ci": "jest --ci --bail --no-cache"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.5.2"
+  }
+}

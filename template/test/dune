@@ -1,12 +1,3 @@
 (melange.emit
- (target node)
- (alias test)
- (libraries melange-fest lib))
-
-(rule
- (alias runtest)
- (deps
-  (alias_rec test)
-  (:input ./node/test/lib_test.js))
- (action
-  (run node %{input})))
+ (target test)
+ (libraries melange-jest.jest lib))
