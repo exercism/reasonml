@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "stevejb71"
+  ],
+  "contributors": [
+    "BNAndras",
+    "naartjie",
+    "ohana54",
+    "tejasbubane"
+  ],
+  "files": {
+    "solution": [
+      "src/FlowerField.re"
+    ],
+    "test": [
+      "__tests__/FlowerField_test.re"
+    ],
+    "example": [
+      ".meta/src/Example.re"
+    ]
+  },
+  "blurb": "Mark all the flowers in a garden."
+}
