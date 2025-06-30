@@ -1,0 +1,4 @@
+(library
+ (name lib)
+ (modes melange)
+ (libraries melange melange.belt melange.js))

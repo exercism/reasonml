@@ -2,19 +2,18 @@
   "name": "$(name)",
   "version": "0.1.0",
   "scripts": {
-    "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world",
+    "dune": "opam exec -- dune",
+    "build": "npm run dune -- build",
+    "start": "npm run build -- --watch",
+    "clean": "npm run dune -- clean",
+    "format": "npm run format:check -- --auto-promote",
+    "format:check": "npm run dune -- build @fmt",
     "test": "jest --watchAll",
     "test:ci": "jest --ci --bail --no-cache"
   },
-  "keywords": [
-    "BuckleScript"
-  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.4.2",
-    "bs-platform": "^3.1.5"
+    "jest": "^26.5.2"
   }
 }
