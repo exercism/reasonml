@@ -1,0 +1,1 @@
+let annotate : array(string) => array(string);

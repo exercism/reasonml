@@ -322,6 +322,18 @@
         ]
       },
       {
+        "slug": "flower-field",
+        "name": "Flower Field",
+        "uuid": "a79356e2-faca-4891-91dd-12211c85f804",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5,
+        "topics": [
+          "arrays",
+          "strings"
+        ]
+      },
+      {
         "slug": "minesweeper",
         "name": "Minesweeper",
         "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
