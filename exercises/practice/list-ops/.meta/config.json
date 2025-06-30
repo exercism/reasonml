@@ -11,6 +11,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/ListOps.rei"
     ]
   },
   "blurb": "Implement basic list operations."
