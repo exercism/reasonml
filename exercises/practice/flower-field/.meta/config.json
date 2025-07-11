@@ -17,6 +17,9 @@
     ],
     "example": [
       ".meta/src/Example.re"
+    ],
+    "editor": [
+      "src/FlowerField.rei"
     ]
   },
   "blurb": "Mark all the flowers in a garden."
