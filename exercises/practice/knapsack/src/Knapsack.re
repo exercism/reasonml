@@ -1,3 +1,6 @@
 open Item;
 
-// Please implement the Knapsack functions
+let maximum_value = (_, _) => {
+  failwith("TODO: implement maximum_value function");
+};
+
