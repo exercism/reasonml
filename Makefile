@@ -25,10 +25,11 @@ PKG_LOCK_FILES= $(shell find ./exercises/practice/*/* -maxdepth 1 -name package-
 # copy example, interface and test files for single exercise to OUTDIR
 # Rename Example.re to ExerciseName.re in the process
 copy-exercise:
+	@cp exercises/practice/$(EXERCISE)/src/*.re $(OUTDIR)/src/ 2>/dev/null || true
+	@cp exercises/practice/$(EXERCISE)/src/*.rei $(OUTDIR)/src/ 2>/dev/null || true
 	@cp exercises/practice/$(EXERCISE)/.meta/src/$(EXAMPLE) $(OUTDIR)/src/$(SRCFILE).$(FILEEXT)
-	@cp exercises/practice/$(EXERCISE)/src/$(SIGFILE) $(OUTDIR)/src/
-	@cp exercises/practice/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/
-	@find exercises/practice/$(EXERCISE)/src/ -name "*.$(FILEEXT)" ! -name "$(SIGFILE)" -exec cp {} $(OUTDIR)/src/ \;
+	@cp exercises/practice/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/ 2>/dev/null || true
+
 
 # copy source files for all exercises to OUTDIR - easier to compile from there
 copy-all-exercises:
