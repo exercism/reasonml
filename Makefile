@@ -2,7 +2,7 @@
 
 EXERCISE ?= ""
 IGNOREDIRS := "^(\.git|docs|bin|node_modules|.idea|.vscode)$$"
-EXERCISES = $(shell find ./exercises/practice -maxdepth 1 -mindepth 1 -type d | cut -d'/' -f3 | sort | grep -Ev $(IGNOREDIRS))
+EXERCISES = $(shell find ./exercises/practice -maxdepth 1 -mindepth 1 -type d | cut -d'/' -f4 | sort | grep -Ev $(IGNOREDIRS))
 
 # output directories
 OUTDIR ?= "tmp"
@@ -28,6 +28,7 @@ copy-exercise:
 	@cp exercises/practice/$(EXERCISE)/.meta/src/$(EXAMPLE) $(OUTDIR)/src/$(SRCFILE).$(FILEEXT)
 	@cp exercises/practice/$(EXERCISE)/src/$(SIGFILE) $(OUTDIR)/src/
 	@cp exercises/practice/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/
+	@find exercises/practice/$(EXERCISE)/src/ -name "*.$(FILEEXT)" ! -name "$(SIGFILE)" -exec cp {} $(OUTDIR)/src/ \;
 
 # copy source files for all exercises to OUTDIR - easier to compile from there
 copy-all-exercises:
