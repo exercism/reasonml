@@ -2,7 +2,7 @@
 
 EXERCISE ?= ""
 IGNOREDIRS := "^(\.git|docs|bin|node_modules|.idea|.vscode)$$"
-EXERCISES = $(shell find ./exercises/practice -maxdepth 1 -mindepth 1 -type d | cut -d'/' -f3 | sort | grep -Ev $(IGNOREDIRS))
+EXERCISES = $(shell find ./exercises/practice -maxdepth 1 -mindepth 1 -type d | cut -d'/' -f4 | sort | grep -Ev $(IGNOREDIRS))
 
 # output directories
 OUTDIR ?= "tmp"
@@ -25,9 +25,11 @@ PKG_LOCK_FILES= $(shell find ./exercises/practice/*/* -maxdepth 1 -name package-
 # copy example, interface and test files for single exercise to OUTDIR
 # Rename Example.re to ExerciseName.re in the process
 copy-exercise:
+	@cp exercises/practice/$(EXERCISE)/src/*.re $(OUTDIR)/src/ 2>/dev/null || true
+	@cp exercises/practice/$(EXERCISE)/src/*.rei $(OUTDIR)/src/ 2>/dev/null || true
 	@cp exercises/practice/$(EXERCISE)/.meta/src/$(EXAMPLE) $(OUTDIR)/src/$(SRCFILE).$(FILEEXT)
-	@cp exercises/practice/$(EXERCISE)/src/$(SIGFILE) $(OUTDIR)/src/
-	@cp exercises/practice/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/
+	@cp exercises/practice/$(EXERCISE)/__tests__/$(TSTFILE) $(OUTDIR)/__tests__/ 2>/dev/null || true
+
 
 # copy source files for all exercises to OUTDIR - easier to compile from there
 copy-all-exercises:
