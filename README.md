@@ -17,7 +17,7 @@ Fixes and improvements to existing exercises are welcome. Please note that this 
 
 ## Exercise Tests
 
-All Exercism exercises contain a test suite, which help to guide the user's implementation. You can read more about how we think about test suites in [the Exercism documentation](https://github.com/exercism/docs/blob/master/language-tracks/exercises/anatomy/test-suites.md).
+All Exercism exercises contain a test suite, which help to guide the user's implementation.
 
 Tests should be written using [bs-jest](https://github.com/glennsl/bs-jest).
 
