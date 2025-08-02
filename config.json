@@ -340,11 +340,11 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5,
+        "status": "deprecated",
         "topics": [
           "arrays",
           "strings"
-        ],
-        "status": "deprecated"
+        ]
       },
       {
         "slug": "acronym",
@@ -381,6 +381,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "91d5cc76-fd54-408b-8203-61531c63573e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },

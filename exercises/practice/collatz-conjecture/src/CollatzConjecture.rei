@@ -1,0 +1,1 @@
+let collatzConjecture: (int) => result(int, string)
