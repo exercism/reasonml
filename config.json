@@ -340,11 +340,11 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5,
+        "status": "deprecated",
         "topics": [
           "arrays",
           "strings"
-        ],
-        "status": "deprecated"
+        ]
       },
       {
         "slug": "acronym",
@@ -381,6 +381,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
+      },
+      {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "a0c26f47-b7ae-4fab-8590-e1f5f32c1b50",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },

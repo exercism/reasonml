@@ -1,0 +1,1 @@
+let squareRoot: int => int;
