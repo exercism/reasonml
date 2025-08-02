@@ -11,9 +11,9 @@ Follow the instructions under https://reasonml.github.io/docs/en/installation to
 
 We welcome all contributions, both large and small.
 
-Please read about how to [get involved in a track](https://github.com/exercism/docs/tree/master/contributing-to-language-tracks). Be sure to read the Exercism [Code of Conduct](https://exercism.io/code-of-conduct).
+Please read about how to [get involved in a track](https://github.com/exercism/docs/tree/main/building/tracks). Be sure to read the Exercism [Code of Conduct](https://exercism.io/code-of-conduct).
 
-Fixes and improvements to existing exercises are welcome. Please note that this track's exercises must conform to the Exercism-wide standards described in the [documentation](https://github.com/exercism/docs/tree/master/language-tracks/exercises). If you're unsure about how to make a change, then go ahead and open a GitHub issue, and we'll discuss it.
+Fixes and improvements to existing exercises are welcome. Please note that this track's exercises must conform to the Exercism-wide standards described in the [documentation](https://github.com/exercism/docs/tree/main). If you're unsure about how to make a change, then go ahead and open a GitHub issue, and we'll discuss it.
 
 ## Exercise Tests
 
@@ -59,8 +59,8 @@ refmt --in-place Example.re
 
 Before submitting your pull request, you'll want to verify the changes in two ways:
 
-* Run all the tests for the ReasonML exercises. There is a top level Makefile, run: `make`.
-* Run checks on the repo using [configlet](https://github.com/exercism/docs/blob/master/language-tracks/configuration/configlet.md). From the top level, run:
+- Run all the tests for the ReasonML exercises. There is a top level Makefile, run: `make`.
+- Run checks on the repo using [configlet](https://github.com/exercism/docs/tree/main/building/configlet). From the top level, run:
 
 ```sh
 ./bin/configlet lint --track-id reasonml .
@@ -68,7 +68,7 @@ Before submitting your pull request, you'll want to verify the changes in two wa
 
 ## Contributing a New Exercise
 
-Please see the documentation about [adding new exercises](https://github.com/exercism/docs/blob/master/you-can-help/make-up-new-exercises.md).
+Please see the documentation about [adding new exercises](https://github.com/exercism/docs/tree/main/building/tracks/practice-exercises).
 
 Note that:
 
