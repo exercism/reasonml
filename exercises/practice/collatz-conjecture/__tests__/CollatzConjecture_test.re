@@ -15,7 +15,7 @@ describe("Collatz Conjecture", () => {
   test("large number of even and odd steps", () =>
     expect(collatzConjecture(1000000)) |> toEqual(Ok(152))
   );
-  test("zero is and error", () =>
+  test("zero is an error", () =>
     expect(collatzConjecture(0))
     |> toEqual(Error("Only positive integers are allowed"))
   );
