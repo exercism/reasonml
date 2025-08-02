@@ -1,6 +1,6 @@
 open Jest;
 open Expect;
-open CollatzConjecture
+open CollatzConjecture;
 
 describe("Collatz Conjecture", () => {
   test("zero steps for one", () =>
@@ -20,10 +20,12 @@ describe("Collatz Conjecture", () => {
   );
 
   test("zero is and error", () =>
-    expect(collatzConjecture(0)) |> toEqual(Error("Only positive integers are allowed"))
+    expect(collatzConjecture(0))
+    |> toEqual(Error("Only positive integers are allowed"))
   );
 
   test("negative value is an error", () =>
-    expect(collatzConjecture(-15)) |> toEqual(Error("Only positive integers are allowed"))
+    expect(collatzConjecture(-15))
+    |> toEqual(Error("Only positive integers are allowed"))
   );
 });
