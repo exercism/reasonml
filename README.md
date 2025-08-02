@@ -47,7 +47,7 @@ If you plan to make significant or breaking changes, please open an issue so we 
 
 ## Submitting a Pull Request
 
-Pull requests should be focused on a single exercise, issue, or conceptually cohesive change. Please refer to Exercism's [pull request guidelines](https://github.com/exercism/docs/blob/master/contributing/pull-request-guidelines.md).
+Pull requests should be focused on a single exercise, issue, or conceptually cohesive change. Please refer to Exercism's [pull request guidelines](https://github.com/exercism/docs/blob/main/building/github/contributors-pull-request-guide.md).
 
 Please use [refmt](https://reasonml.github.io/docs/en/extra-goodies.html) to ensure a consistent coding style.
 
