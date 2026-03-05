@@ -76,6 +76,14 @@
         ]
       },
       {
+        "slug": "eliuds-eggs",
+        "name": "Eliud's Eggs",
+        "uuid": "4c0a01a8-b39d-4e7d-b328-2763252f4b38",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "rna-transcription",
         "name": "RNA Transcription",
         "uuid": "9690c216-d999-4b44-b73c-b7a8d776cf5d",

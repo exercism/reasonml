@@ -1,0 +1,1 @@
+let eggCount: (int) => int;
