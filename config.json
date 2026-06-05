@@ -62,6 +62,81 @@
         ]
       },
       {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "two-fer",
+        "name": "Two Fer",
+        "uuid": "a75eef3f-97c0-4cf4-b375-f2fb3fe169d9",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1,
+        "topics": [
+          "functions",
+          "option",
+          "string_interpolation"
+        ]
+      },
+      {
+        "slug": "accumulate",
+        "name": "Accumulate",
+        "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": [
+          "algorithms",
+          "folding",
+          "lists"
+        ]
+      },
+      {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "c6623707-e7e9-4ce9-9440-8bb87696bb73",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": [
+          "regular_expressions",
+          "strings"
+        ]
+      },
+      {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "364cafb4-ada0-4f9f-87f0-c6cbf603fcba",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": [
+          "algorithms",
+          "folding",
+          "integers",
+          "lists",
+          "math"
+        ]
+      },
+      {
+        "slug": "armstrong-numbers",
+        "name": "Armstrong Numbers",
+        "uuid": "cc660762-4006-40c2-bc3b-a7bb4ac69202",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": [
+          "algorithms",
+          "arrays",
+          "folding",
+          "math"
+        ]
+      },
+      {
         "slug": "bob",
         "name": "Bob",
         "uuid": "88a4ce55-2c79-416c-930d-9e8923e16e45",
@@ -84,6 +159,18 @@
         "difficulty": 2
       },
       {
+        "slug": "raindrops",
+        "name": "Raindrops",
+        "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": [
+          "fun_expressions",
+          "list_map_function"
+        ]
+      },
+      {
         "slug": "rna-transcription",
         "name": "RNA Transcription",
         "uuid": "9690c216-d999-4b44-b73c-b7a8d776cf5d",
@@ -94,6 +181,19 @@
           "list_map_function",
           "lists",
           "variants"
+        ]
+      },
+      {
+        "slug": "space-age",
+        "name": "Space Age",
+        "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": [
+          "enum_types",
+          "floating_point_arithmetic",
+          "fun_expressions"
         ]
       },
       {
@@ -112,6 +212,57 @@
         ]
       },
       {
+        "slug": "anagram",
+        "name": "Anagram",
+        "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "filtering",
+          "strings"
+        ]
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "91d5cc76-fd54-408b-8203-61531c63573e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "isogram",
+        "name": "Isogram",
+        "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "lists",
+          "strings"
+        ]
+      },
+      {
+        "slug": "list-ops",
+        "name": "List Ops",
+        "uuid": "17bed5bf-1795-4d51-b1cb-89d7d960d9ee",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3,
+        "topics": [
+          "strings"
+        ]
+      },
+      {
         "slug": "phone-number",
         "name": "Phone Number",
         "uuid": "2721c31b-773e-43c5-93ab-f704d62e5cde",
@@ -121,86 +272,6 @@
         "topics": [
           "regular_expressions",
           "strings"
-        ]
-      },
-      {
-        "slug": "scrabble-score",
-        "name": "Scrabble Score",
-        "uuid": "6481f0dc-faaa-4c93-a380-953619f4934b",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
-      },
-      {
-        "slug": "binary-search",
-        "name": "Binary Search",
-        "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 4,
-        "topics": [
-          "arrays",
-          "recursion"
-        ]
-      },
-      {
-        "slug": "run-length-encoding",
-        "name": "Run-Length Encoding",
-        "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 5,
-        "topics": [
-          "converting_strings_to_ints",
-          "strings"
-        ]
-      },
-      {
-        "slug": "resistor-color",
-        "name": "Resistor Color",
-        "uuid": "bf535acd-ddb2-4a85-a2b6-7ff0e0ac7a46",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1
-      },
-      {
-        "slug": "two-fer",
-        "name": "Two Fer",
-        "uuid": "a75eef3f-97c0-4cf4-b375-f2fb3fe169d9",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1,
-        "topics": [
-          "functions",
-          "option",
-          "string_interpolation"
-        ]
-      },
-      {
-        "slug": "armstrong-numbers",
-        "name": "Armstrong Numbers",
-        "uuid": "cc660762-4006-40c2-bc3b-a7bb4ac69202",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2,
-        "topics": [
-          "algorithms",
-          "arrays",
-          "folding",
-          "math"
-        ]
-      },
-      {
-        "slug": "space-age",
-        "name": "Space Age",
-        "uuid": "9e8b7922-fd95-4797-af1b-736a6179821d",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2,
-        "topics": [
-          "enum_types",
-          "floating_point_arithmetic",
-          "fun_expressions"
         ]
       },
       {
@@ -215,16 +286,28 @@
         ]
       },
       {
-        "slug": "raindrops",
-        "name": "Raindrops",
-        "uuid": "d8ee28f4-bc35-408f-8380-a2eb54dec5b0",
+        "slug": "scrabble-score",
+        "name": "Scrabble Score",
+        "uuid": "6481f0dc-faaa-4c93-a380-953619f4934b",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 2,
-        "topics": [
-          "fun_expressions",
-          "list_map_function"
-        ]
+        "difficulty": 3
+      },
+      {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "a0c26f47-b7ae-4fab-8590-e1f5f32c1b50",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
+        "slug": "triangle",
+        "name": "Triangle",
+        "uuid": "01d5ea7c-00f3-4acc-900a-387ba54d348e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "allergies",
@@ -241,16 +324,15 @@
         ]
       },
       {
-        "slug": "accumulate",
-        "name": "Accumulate",
-        "uuid": "f3025c02-fc67-4354-8e0a-a76e9c5cef4e",
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "eb635d37-a70b-47b2-883b-8ec9ca6098ef",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 2,
+        "difficulty": 4,
         "topics": [
-          "algorithms",
-          "folding",
-          "lists"
+          "arrays",
+          "recursion"
         ]
       },
       {
@@ -264,56 +346,6 @@
           "data_transform",
           "hash_map_lookup",
           "lists"
-        ]
-      },
-      {
-        "slug": "anagram",
-        "name": "Anagram",
-        "uuid": "1ddb534c-54e9-44a2-bd5f-fdcded7b03c8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3,
-        "topics": [
-          "filtering",
-          "strings"
-        ]
-      },
-      {
-        "slug": "isogram",
-        "name": "Isogram",
-        "uuid": "4e7e7b4b-b279-47c2-9d5a-3c44f7bbeb34",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3,
-        "topics": [
-          "lists",
-          "strings"
-        ]
-      },
-      {
-        "slug": "pangram",
-        "name": "Pangram",
-        "uuid": "dddf877a-a8d4-45d7-8543-882c08bad2e8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3,
-        "topics": [
-          "strings"
-        ]
-      },
-      {
-        "slug": "all-your-base",
-        "name": "All Your Base",
-        "uuid": "364cafb4-ada0-4f9f-87f0-c6cbf603fcba",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2,
-        "topics": [
-          "algorithms",
-          "folding",
-          "integers",
-          "lists",
-          "math"
         ]
       },
       {
@@ -342,6 +374,14 @@
         ]
       },
       {
+        "slug": "knapsack",
+        "name": "Knapsack",
+        "uuid": "3ca5c513-9a92-47bc-974f-bd1d72d97efd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "minesweeper",
         "name": "Minesweeper",
         "uuid": "a98cd43d-a575-429b-bb33-00748b5ef2c4",
@@ -355,56 +395,16 @@
         ]
       },
       {
-        "slug": "acronym",
-        "name": "Acronym",
-        "uuid": "c6623707-e7e9-4ce9-9440-8bb87696bb73",
+        "slug": "run-length-encoding",
+        "name": "Run-Length Encoding",
+        "uuid": "1c8245de-3ae2-4b59-83a9-d34c540f67f0",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 2,
+        "difficulty": 5,
         "topics": [
-          "regular_expressions",
+          "converting_strings_to_ints",
           "strings"
         ]
-      },
-      {
-        "slug": "triangle",
-        "name": "Triangle",
-        "uuid": "01d5ea7c-00f3-4acc-900a-387ba54d348e",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
-      },
-      {
-        "slug": "list-ops",
-        "name": "List Ops",
-        "uuid": "17bed5bf-1795-4d51-b1cb-89d7d960d9ee",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
-      },
-      {
-        "slug": "knapsack",
-        "name": "Knapsack",
-        "uuid": "3ca5c513-9a92-47bc-974f-bd1d72d97efd",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 5
-      },
-      {
-        "slug": "square-root",
-        "name": "Square Root",
-        "uuid": "a0c26f47-b7ae-4fab-8590-e1f5f32c1b50",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
-      },
-      {
-        "slug": "collatz-conjecture",
-        "name": "Collatz Conjecture",
-        "uuid": "91d5cc76-fd54-408b-8203-61531c63573e",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
       }
     ]
   },
