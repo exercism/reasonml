@@ -7,3 +7,19 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
+
+  # Keep npm dependencies up-to-date
+  - package-ecosystem: 'npm'
+    directories:
+      - '/'
+      - '/template'
+      - '/exercises/practice/*'
+    schedule:
+      interval: 'monthly'
+    open-pull-requests-limit: 0 # disable general npm updates
+    groups:
+      # Group npm security updates enabled through Exercism settings
+      security-updates:
+        applies-to: 'security-updates'
+        patterns:
+          - '*'
