@@ -3,23 +3,29 @@ version: 2
 updates:
 
   # Keep dependencies for GitHub Actions up-to-date
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: 'monthly'
+      interval: monthly
 
   # Keep npm dependencies up-to-date
-  - package-ecosystem: 'npm'
+  - package-ecosystem: npm
     directories:
-      - '/'
-      - '/template'
-      - '/exercises/practice/*'
+      - /
+      - /template
+      - /exercises/practice/*
     schedule:
-      interval: 'monthly'
+      interval: monthly
     open-pull-requests-limit: 0 # disable general npm updates
     groups:
       # Group npm security updates enabled through Exercism settings
       security-updates:
-        applies-to: 'security-updates'
+        applies-to: security-updates
         patterns:
-          - '*'
+          - *
+
+  # Enable updates to the dependencies of our Dockerfile
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: monthly
