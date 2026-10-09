@@ -22,7 +22,7 @@ updates:
       security-updates:
         applies-to: security-updates
         patterns:
-          - *
+          - "*"
 
   # Enable updates to the dependencies of our Dockerfile
   - package-ecosystem: docker
