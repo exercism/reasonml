@@ -1,0 +1,17 @@
+let mostCommonWord = text => {
+  let counts = Js.Dict.empty();
+  let best = ref("");
+  let bestCount = ref(0);
+  text
+  |> Js.String.toLowerCase
+  |> Js.String.split(" ")
+  |> Js.Array.forEach(word => {
+       let count = Belt.Option.getWithDefault(Js.Dict.get(counts, word), 0) + 1;
+       Js.Dict.set(counts, word, count);
+       if (count > bestCount^) {
+         best := word;
+         bestCount := count;
+       };
+     });
+  "\"" ++ best^ ++ "\" appears " ++ string_of_int(bestCount^) ++ " times";
+};
